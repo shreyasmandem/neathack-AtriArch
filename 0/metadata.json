@@ -1,0 +1,143 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4JM5ST0FAC4131EFGEQDX02",
+  "session_id": "955461d1-2de5-4496-8441-6069f418d7cb",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-10T10:01:44.000Z",
+  "branch": "main",
+  "checkpoints_count": 2,
+  "files_touched": [
+    ".claude/launch.json",
+    ".gitignore",
+    "DESIGN.md",
+    "PRODUCT.md",
+    "README.md",
+    "backend/aip/agents/base.py",
+    "backend/aip/agents/critics.py",
+    "backend/aip/agents/orchestrator.py",
+    "backend/aip/api/__init__.py",
+    "backend/aip/api/app.py",
+    "backend/aip/api/routers/__init__.py",
+    "backend/aip/api/routers/admin.py",
+    "backend/aip/api/routers/design.py",
+    "backend/aip/api/routers/plans.py",
+    "backend/aip/api/routers/system.py",
+    "backend/aip/api/schemas.py",
+    "backend/aip/api/security.py",
+    "backend/aip/api/store.py",
+    "backend/aip/core/config.py",
+    "backend/aip/core/llm.py",
+    "backend/aip/core/providers.py",
+    "backend/aip/db/__init__.py",
+    "backend/aip/db/models.py",
+    "backend/aip/db/session.py",
+    "backend/aip/domain/geometry.py",
+    "backend/aip/domain/plan.py",
+    "backend/aip/engines/architecture/drawings.py",
+    "backend/aip/engines/architecture/layout.py",
+    "backend/aip/engines/architecture/metrics.py",
+    "backend/aip/engines/architecture/repair.py",
+    "backend/aip/engines/cost/estimator.py",
+    "backend/aip/engines/experience/__init__.py",
+    "backend/aip/engines/experience/model3d.py",
+    "backend/aip/engines/interior/__init__.py",
+    "backend/aip/engines/interior/catalog.py",
+    "backend/aip/engines/interior/engine.py",
+    "backend/aip/engines/vastu/__init__.py",
+    "backend/aip/engines/vastu/engine.py",
+    "backend/aip/engines/vastu/knowledge.py",
+    "backend/aip/evaluation/__init__.py",
+    "backend/aip/evaluation/harness.py",
+    "backend/aip/rag/embeddings.py",
+    "backend/aip/rag/store.py",
+    "backend/pyproject.toml",
+    "backend/scripts/verify_providers.py",
+    "backend/tests/conftest.py",
+    "backend/tests/test_agents.py",
+    "backend/tests/test_api.py",
+    "backend/tests/test_engines.py",
+    "backend/tests/test_geometry.py",
+    "docs/API_SETUP.md",
+    "docs/ARCHITECTURE.md",
+    "docs/RESEARCH.md",
+    "docs/evaluation.json",
+    "docs/samples/elevation_E.svg",
+    "docs/samples/elevation_N.svg",
+    "docs/samples/elevation_S.svg",
+    "docs/samples/elevation_W.svg",
+    "docs/samples/model.glb",
+    "docs/samples/model.obj",
+    "docs/samples/plan_level_0.svg",
+    "docs/samples/roof_plan.svg",
+    "docs/samples/section_aa.svg",
+    "docs/samples/section_bb.svg",
+    "docs/samples/site_plan.svg",
+    "embed/aip-widget.js",
+    "embed/demo.html",
+    "frontend/index.html",
+    "frontend/studio.css",
+    "frontend/studio.js"
+  ],
+  "agent": "Claude Code",
+  "model": "claude-opus-4-6",
+  "turn_id": "turn_02_19b979ce",
+  "token_usage": {
+    "input_tokens": 38940,
+    "cache_creation_tokens": 64800,
+    "cache_read_tokens": 542300,
+    "output_tokens": 31820,
+    "api_call_count": 31
+  },
+  "checkpoint_token_usage": {
+    "input_tokens": 38940,
+    "cache_creation_tokens": 64800,
+    "cache_read_tokens": 542300,
+    "output_tokens": 31820,
+    "api_call_count": 31
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-10-10T10:01:44.000Z",
+    "agent_lines": 15123,
+    "agent_removed": 86,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 15123,
+    "total_lines_changed": 15209,
+    "agent_percentage": 100,
+    "metric_version": 2
+  },
+  "summary": {
+    "intent": "Complete the full-stack platform with SVG CAD drawings, interior furniture solver, glTF/OBJ 3D export, multi-tenant FastAPI + SSE API, embeddable widget, and evaluation harness.",
+    "outcome": "Delivered full drawing set generation, interior layout solver, binary GLB/OBJ 3D models, FastAPI service, shadow-DOM widget, and ablation harness showing 45% fewer critical code breaches under MACC.",
+    "learnings": {
+      "repo": [
+        "Walls with openings are decomposed into sill, lintel, and jamb quads directly so glTF generation requires no external CSG library.",
+        "Routing on measured latency as well as quality avoids 40x tail stalls during parallel critic fan-out."
+      ],
+      "code": [
+        {
+          "path": "backend/aip/engines/experience/model3d.py",
+          "line": 1,
+          "end_line": 210,
+          "finding": "Direct quad decomposition around openings produces watertight binary GLB meshes."
+        },
+        {
+          "path": "backend/aip/core/llm.py",
+          "line": 120,
+          "end_line": 240,
+          "finding": "Circuit breakers and latency-weighted scoring prevent withdrawn free-tier models from stalling runs."
+        }
+      ],
+      "workflow": [
+        "Verify provider catalogues with scripts/verify_providers.py before demos."
+      ]
+    },
+    "friction": [
+      "Several free-tier model IDs on OpenRouter and Groq were decommissioned upstream; replaced with live-verified IDs and added stale-ID failover."
+    ],
+    "open_items": [
+      "Add post-vote manager-worker constraint negotiation and a Vastu knowledge graph for rooms beyond the classical treatises."
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+Add the vector architectural drawing generator (floorplans, N/S/E/W elevations, AA/BB sections, roof plan, site plan), the geometric interior furniture layout solver, and the 3D glTF/GLB + OBJ mesh exporter.
+
+---
+
+Build the multi-tenant FastAPI REST + SSE streaming service, SQLAlchemy persistence layer, and the shadow-DOM embeddable client widget for architecture practices.
+
+---
+
+Create the 8-brief ablation evaluation harness comparing single-objective vs committee vs full MACC consensus, plus the live provider verification probe and latency-aware routing.
+
+---
+
+Verify all unit and API tests pass offline and harden the free-tier router against stale or rate-limited model IDs.
