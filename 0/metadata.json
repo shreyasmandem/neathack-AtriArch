@@ -1,0 +1,86 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4KD31H041T5GR93K73SJH05",
+  "session_id": "fd077be5-cd09-4d91-beb4-30df27c1398e",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-10T17:17:08.000Z",
+  "branch": "main",
+  "checkpoints_count": 5,
+  "files_touched": [
+    "backend/aip/api/routers/plans.py",
+    "backend/aip/engines/architecture/windflow.py",
+    "backend/aip/engines/experience/arch3d.py",
+    "backend/aip/engines/experience/model3d.py",
+    "backend/aip/engines/experience/palettes.py",
+    "backend/aip/engines/vastu/placements.py",
+    "backend/tests/test_windflow.py",
+    "frontend/airflow.js",
+    "frontend/index.html",
+    "frontend/rabbit.css",
+    "frontend/stage3d.js",
+    "frontend/studio.js",
+    "frontend/viewer3d.js"
+  ],
+  "agent": "Claude Code",
+  "model": "claude-opus-4-6",
+  "turn_id": "turn_05_2bbc2883",
+  "token_usage": {
+    "input_tokens": 29850,
+    "cache_creation_tokens": 53400,
+    "cache_read_tokens": 489600,
+    "output_tokens": 26410,
+    "api_call_count": 24
+  },
+  "checkpoint_token_usage": {
+    "input_tokens": 29850,
+    "cache_creation_tokens": 53400,
+    "cache_read_tokens": 489600,
+    "output_tokens": 26410,
+    "api_call_count": 24
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-10-10T17:17:08.000Z",
+    "agent_lines": 3436,
+    "agent_removed": 9,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 3436,
+    "total_lines_changed": 3445,
+    "agent_percentage": 100,
+    "metric_version": 2
+  },
+  "summary": {
+    "intent": "Deliver presentation-grade 3D architecture with per-room finishes and coordinated colour palettes, a whole-floor potential-flow breeze solver, and an interactive 3D Vastu zone overlay.",
+    "outcome": "Shipped two-leaf PBR 3D models with 12 ranked colour palettes, potential-flow indoor breeze simulation with live particle advection, and 3D Vastu floor grids with remedy move arcs.",
+    "learnings": {
+      "repo": [
+        "glTF PBR factors are linear RGB; converting authored sRGB colours and merging collinear duplicate wall segments eliminates washed-out finishes and coplanar wall flicker.",
+        "Potential-flow grid solve with resistive window/door cuts captures cross-ventilation paths and dead-air pockets across the whole floorplate."
+      ],
+      "code": [
+        {
+          "path": "backend/aip/engines/experience/arch3d.py",
+          "line": 1,
+          "end_line": 280,
+          "finding": "Two-leaf wall construction gives every room independent paint, tile dado, and feature-wall finishes."
+        },
+        {
+          "path": "backend/aip/engines/vastu/placements.py",
+          "line": 1,
+          "end_line": 190,
+          "finding": "Computes 9-cell Vastu grid geometry, per-room verdict pins, and 3D remedy vectors to ideal quarters."
+        }
+      ],
+      "workflow": [
+        "Keep sRGB-to-linear conversion centralized in arch3d material construction."
+      ]
+    },
+    "friction": [
+      "Coplanar duplicate walls between adjacent rooms caused z-fighting flicker in Three.js until collinear wall merging was added prior to mesh extrusion."
+    ],
+    "open_items": [
+      "Add a pre-search programme feasibility gate, lock multi-storey stair footprints across mutations, and enforce room aspect-ratio and plot-filling bounds."
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+Upgrade the 3D presentation model (`arch3d.py`, `viewer3d.js`) with architectural details: plinth, entrance steps, framed windows with mullions and chajjas, two-leaf interior walls for per-room finishes, dog-leg stairs, hip/parapet roofs, natural setback landscaping, and piece-by-piece furniture fit-out.
+
+---
+
+Add 12 coordinated exterior-and-interior colour schemes (`palettes.py`) ranked by architectural style, climate, Vastu zone colours, and the client's free-text colour preferences, converting sRGB colours to linear glTF PBR factors.
+
+---
+
+Build a whole-floor potential-flow breeze solver (`airflow.py`, `frontend/airflow.js`) where walls are solid, windows and open doors are resistive cuts, and the Air view animates advected streamlines, inlets/outlets, and a compass wind rose.
+
+---
+
+Add 3D Vastu zone placements (`placements.py`, `/plans/{id}/vastu3d`) rendering the 9-cell directional grid on each cut-open floor with verdict-coloured pins and ghost move arcs to each room's ideal quarter.
