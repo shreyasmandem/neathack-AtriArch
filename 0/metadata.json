@@ -1,0 +1,179 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4M2TGNYP0MGP4QCAX600ESB",
+  "session_id": "fd077be5-cd09-4d91-beb4-30df27c1398e",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-10T23:37:03.0546286Z",
+  "branch": "main",
+  "checkpoints_count": 2,
+  "save_step_count": 3,
+  "files_touched": [
+    ".claude/launch.json",
+    "backend/aip/agents/brief_agent.py",
+    "backend/aip/api/routers/design.py",
+    "backend/aip/core/llm.py",
+    "backend/aip/core/providers.py",
+    "backend/aip/engines/experience/facades.py",
+    "frontend/home.js",
+    "frontend/index.html",
+    "frontend/rabbit.css"
+  ],
+  "agent": "Claude Code",
+  "model": "claude-opus-5-5",
+  "turn_id": "4772298ee8df",
+  "compact_transcript_start": 0,
+  "token_usage": {
+    "input_tokens": 2594,
+    "cache_creation_tokens": 8896175,
+    "cache_read_tokens": 606336395,
+    "output_tokens": 1328640,
+    "api_call_count": 1302,
+    "subagent_tokens": {
+      "input_tokens": 706,
+      "cache_creation_tokens": 7447427,
+      "cache_read_tokens": 163146747,
+      "output_tokens": 550122,
+      "api_call_count": 357
+    }
+  },
+  "skill_events_version": 1,
+  "skill_events": [
+    {
+      "id": "claude-skill-toolu_016CR5eQH5QtkwYkEGctJYak",
+      "event_type": "tool_invocation",
+      "skill": {
+        "name": "impeccable"
+      },
+      "source": {
+        "agent": "claude-code",
+        "signal": "skill_tool_use",
+        "confidence": "explicit"
+      },
+      "turn_id": "8f70291a6d51",
+      "transcript_anchor": {
+        "unit": "line",
+        "start": 448,
+        "end": 449,
+        "entry_ids": [
+          "32fba3e8-6132-43d5-b77a-c4faf9071702"
+        ],
+        "tool_use_id": "toolu_016CR5eQH5QtkwYkEGctJYak"
+      },
+      "native": {
+        "tool_name": "Skill",
+        "tool_use_id": "toolu_016CR5eQH5QtkwYkEGctJYak"
+      },
+      "collapse": {
+        "target": "tool_pair",
+        "label": "Skill: impeccable",
+        "default_collapsed": true
+      }
+    },
+    {
+      "id": "claude-skill-toolu_01Dpqf8chD3ddmWEPTzV9AwR",
+      "event_type": "tool_invocation",
+      "skill": {
+        "name": "impeccable"
+      },
+      "source": {
+        "agent": "claude-code",
+        "signal": "skill_tool_use",
+        "confidence": "explicit"
+      },
+      "turn_id": "8f70291a6d51",
+      "transcript_anchor": {
+        "unit": "line",
+        "start": 1408,
+        "end": 1409,
+        "entry_ids": [
+          "a68a2343-12db-4790-aa43-720574923631"
+        ],
+        "tool_use_id": "toolu_01Dpqf8chD3ddmWEPTzV9AwR"
+      },
+      "native": {
+        "tool_name": "Skill",
+        "tool_use_id": "toolu_01Dpqf8chD3ddmWEPTzV9AwR"
+      },
+      "collapse": {
+        "target": "tool_pair",
+        "label": "Skill: impeccable",
+        "default_collapsed": true
+      }
+    },
+    {
+      "id": "claude-skill-toolu_011F7g5s1KS3A7cdRRFXU2XC",
+      "event_type": "tool_invocation",
+      "skill": {
+        "name": "impeccable"
+      },
+      "source": {
+        "agent": "claude-code",
+        "signal": "skill_tool_use",
+        "confidence": "explicit"
+      },
+      "turn_id": "8f70291a6d51",
+      "transcript_anchor": {
+        "unit": "line",
+        "start": 2979,
+        "end": 2980,
+        "entry_ids": [
+          "3206df0d-b538-496d-9d4c-4a4bf52d87c4"
+        ],
+        "tool_use_id": "toolu_011F7g5s1KS3A7cdRRFXU2XC"
+      },
+      "native": {
+        "tool_name": "Skill",
+        "tool_use_id": "toolu_011F7g5s1KS3A7cdRRFXU2XC"
+      },
+      "collapse": {
+        "target": "tool_pair",
+        "label": "Skill: impeccable",
+        "default_collapsed": true
+      }
+    }
+  ],
+  "session_metrics": {
+    "turn_count": 2
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-10-10T23:37:00.1809963Z",
+    "agent_lines": 0,
+    "agent_removed": 0,
+    "human_added": 143,
+    "human_modified": 5058,
+    "human_removed": 0,
+    "total_committed": 1191,
+    "total_lines_changed": 5201,
+    "agent_percentage": 0,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 2,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0
+    },
+    {
+      "checkpoint_number": 3,
+      "user_lines_added": 2226,
+      "user_lines_removed": 2082,
+      "agent_lines_added": 44,
+      "agent_lines_removed": 26,
+      "user_added_per_file": {
+        ".impeccable/hook.cache.json": 1,
+        "backend/aip/agents/brief_agent.py": 482,
+        "backend/aip/api/routers/design.py": 372,
+        "backend/aip/core/llm.py": 962,
+        "backend/aip/core/providers.py": 409
+      },
+      "user_removed_per_file": {
+        "backend/aip/agents/brief_agent.py": 377,
+        "backend/aip/api/routers/design.py": 370,
+        "backend/aip/core/llm.py": 939,
+        "backend/aip/core/providers.py": 396
+      }
+    }
+  ]
+}

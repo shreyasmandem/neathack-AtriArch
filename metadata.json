@@ -1,0 +1,41 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4M2TGNYP0MGP4QCAX600ESB",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 2,
+  "files_touched": [
+    ".claude/launch.json",
+    "backend/aip/agents/brief_agent.py",
+    "backend/aip/api/routers/design.py",
+    "backend/aip/core/llm.py",
+    "backend/aip/core/providers.py",
+    "backend/aip/engines/experience/facades.py",
+    "frontend/home.js",
+    "frontend/index.html",
+    "frontend/rabbit.css"
+  ],
+  "sessions": [
+    {
+      "metadata": "/0/metadata.json",
+      "transcript": "/0/full.jsonl",
+      "compact_transcript": "/0/transcript.jsonl",
+      "content_hash": "/0/content_hash.txt",
+      "prompt": "/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 2594,
+    "cache_creation_tokens": 8896175,
+    "cache_read_tokens": 606336395,
+    "output_tokens": 1328640,
+    "api_call_count": 1302,
+    "subagent_tokens": {
+      "input_tokens": 706,
+      "cache_creation_tokens": 7447427,
+      "cache_read_tokens": 163146747,
+      "output_tokens": 550122,
+      "api_call_count": 357
+    }
+  }
+}
