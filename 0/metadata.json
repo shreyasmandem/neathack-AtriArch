@@ -1,0 +1,87 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4KNDCZ09NSDZPN218ZZDE06",
+  "session_id": "fd077be5-cd09-4d91-beb4-30df27c1398e",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-10T19:42:36.000Z",
+  "branch": "main",
+  "checkpoints_count": 6,
+  "files_touched": [
+    ".claude/launch.json",
+    "backend/aip/agents/orchestrator.py",
+    "backend/aip/agents/protocol.py",
+    "backend/aip/api/routers/design.py",
+    "backend/aip/api/schemas.py",
+    "backend/aip/domain/brief.py",
+    "backend/aip/engines/architecture/feasibility.py",
+    "backend/aip/engines/architecture/importer.py",
+    "backend/aip/engines/architecture/layout.py",
+    "backend/aip/engines/architecture/programme.py",
+    "backend/scripts/plan_audit.py",
+    "backend/scripts/plan_sweep.py",
+    "backend/tests/test_api.py",
+    "backend/tests/test_engines.py",
+    "backend/tests/test_feasibility.py",
+    "backend/tests/test_import.py"
+  ],
+  "agent": "Claude Code",
+  "model": "claude-opus-4-6",
+  "turn_id": "turn_06_6f57cf28",
+  "token_usage": {
+    "input_tokens": 36540,
+    "cache_creation_tokens": 61200,
+    "cache_read_tokens": 574800,
+    "output_tokens": 32180,
+    "api_call_count": 29
+  },
+  "checkpoint_token_usage": {
+    "input_tokens": 36540,
+    "cache_creation_tokens": 61200,
+    "cache_read_tokens": 574800,
+    "output_tokens": 32180,
+    "api_call_count": 29
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-10-10T19:42:36.000Z",
+    "agent_lines": 2722,
+    "agent_removed": 363,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 2722,
+    "total_lines_changed": 3085,
+    "agent_percentage": 100,
+    "metric_version": 2
+  },
+  "summary": {
+    "intent": "Ensure every generated plan is buildable and well-proportioned across both compact and generous plots via a pre-search feasibility gate, locked multi-floor stair carve, and room proportion/growth bounds.",
+    "outcome": "Shipped `feasibility.py`, locked dog-leg stair slicing cuts, room aspect and corridor caps, generous-plot growth, HTTP 422 refusal for impossible briefs, `plan_audit.py`, and 19 new tests in `test_feasibility.py`.",
+    "learnings": {
+      "repo": [
+        "Checking programme feasibility before evolutionary search prevents slicing trees from squeezing 5 bedrooms into a 72 m2 envelope as unbuildable 1.4m slots.",
+        "Carving the dog-leg staircase as locked tree nodes guarantees exact inter-floor stair alignment across all genetic mutations and crossovers."
+      ],
+      "code": [
+        {
+          "path": "backend/aip/engines/architecture/feasibility.py",
+          "line": 1,
+          "end_line": 279,
+          "finding": "Applies architect priority order: add a floor -> drop optional rooms -> scale to furnishable minimums -> raise InfeasibleBriefError."
+        },
+        {
+          "path": "backend/aip/engines/architecture/layout.py",
+          "line": 126,
+          "end_line": 215,
+          "finding": "Enforces per-room aspect caps (1.7:1 bedrooms, 2.0:1 dining, 2.2:1 living) and <10% free circulation share."
+        }
+      ],
+      "workflow": [
+        "Run scripts/plan_audit.py across diverse plot sizes to audit aspect ratios, stair alignment, and circulation share."
+      ]
+    },
+    "friction": [
+      "Sizing passages as frontage * 1.1m consumed 15%+ of small flats; changed passage_area() to scale with 45% of house depth."
+    ],
+    "open_items": []
+  }
+}
