@@ -1,0 +1,105 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4JBXBWR4S86CEH896EBHP01",
+  "session_id": "955461d1-2de5-4496-8441-6069f418d7cb",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-10T07:37:19.000Z",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "files_touched": [
+    ".gitignore",
+    "backend/aip/__init__.py",
+    "backend/aip/agents/base.py",
+    "backend/aip/agents/consensus.py",
+    "backend/aip/agents/critics.py",
+    "backend/aip/agents/orchestrator.py",
+    "backend/aip/core/__init__.py",
+    "backend/aip/core/config.py",
+    "backend/aip/core/llm.py",
+    "backend/aip/core/logging.py",
+    "backend/aip/core/providers.py",
+    "backend/aip/domain/__init__.py",
+    "backend/aip/domain/brief.py",
+    "backend/aip/domain/geometry.py",
+    "backend/aip/domain/plan.py",
+    "backend/aip/engines/__init__.py",
+    "backend/aip/engines/architecture/__init__.py",
+    "backend/aip/engines/architecture/codes.py",
+    "backend/aip/engines/architecture/layout.py",
+    "backend/aip/engines/architecture/metrics.py",
+    "backend/aip/engines/architecture/repair.py",
+    "backend/aip/engines/architecture/solar.py",
+    "backend/aip/engines/cost/__init__.py",
+    "backend/aip/engines/cost/estimator.py",
+    "backend/aip/engines/cost/rates.py",
+    "backend/aip/engines/vastu/__init__.py",
+    "backend/aip/engines/vastu/engine.py",
+    "backend/aip/engines/vastu/knowledge.py",
+    "backend/aip/rag/__init__.py",
+    "backend/aip/rag/corpus.py",
+    "backend/aip/rag/embeddings.py",
+    "backend/aip/rag/retriever.py",
+    "backend/aip/rag/store.py",
+    "backend/pyproject.toml"
+  ],
+  "agent": "Claude Code",
+  "model": "claude-opus-4-6",
+  "turn_id": "turn_01_2afbef6c",
+  "token_usage": {
+    "input_tokens": 34210,
+    "cache_creation_tokens": 82400,
+    "cache_read_tokens": 468900,
+    "output_tokens": 29450,
+    "api_call_count": 28
+  },
+  "checkpoint_token_usage": {
+    "input_tokens": 34210,
+    "cache_creation_tokens": 82400,
+    "cache_read_tokens": 468900,
+    "output_tokens": 29450,
+    "api_call_count": 28
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-10-10T07:37:19.000Z",
+    "agent_lines": 13074,
+    "agent_removed": 0,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 13074,
+    "total_lines_changed": 13074,
+    "agent_percentage": 100,
+    "metric_version": 2
+  },
+  "summary": {
+    "intent": "Build the core multi-agent Architectural Intelligence Platform (AIP) with deterministic physics/code critics, defeasible Vastu reasoning, CPWD cost takeoff, and Pareto-Borda MACC consensus.",
+    "outcome": "Shipped the zero-cost capability router, domain geometry, evolutionary slicing-tree layout generator, 10 analytical solvers, 29-rule Vastu engine, Monte Carlo quantity surveyor, and 13-critic MACC committee.",
+    "learnings": {
+      "repo": [
+        "Ten of the thirteen critics are exact geometric/arithmetic solvers so analytical verdicts cost $0.00 and cannot be talked past by an LLM.",
+        "All model routing goes through Capability enums in aip/core/llm.py with total_model_cost_usd asserted at 0.0."
+      ],
+      "code": [
+        {
+          "path": "backend/aip/agents/consensus.py",
+          "line": 1,
+          "end_line": 180,
+          "finding": "Pareto filter removes dominated candidates before reliability-weighted Borda ranking."
+        },
+        {
+          "path": "backend/aip/engines/vastu/engine.py",
+          "line": 1,
+          "end_line": 160,
+          "finding": "Effective rule weight w * (t + (1 - t) * modern_validity) reconciles classical corpus with building physics."
+        }
+      ],
+      "workflow": [
+        "Keep analytical critics completely independent of provider credentials so the test suite runs offline."
+      ]
+    },
+    "friction": [],
+    "open_items": [
+      "Add parametric SVG drawings, 3D glTF/OBJ mesh export, interior furniture layout solver, and multi-tenant FastAPI endpoints."
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4JBXBWR4S86CEH896EBHP01",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "files_touched": [
+    ".gitignore",
+    "backend/aip/__init__.py",
+    "backend/aip/agents/base.py",
+    "backend/aip/agents/consensus.py",
+    "backend/aip/agents/critics.py",
+    "backend/aip/agents/orchestrator.py",
+    "backend/aip/core/__init__.py",
+    "backend/aip/core/config.py",
+    "backend/aip/core/llm.py",
+    "backend/aip/core/logging.py",
+    "backend/aip/core/providers.py",
+    "backend/aip/domain/__init__.py",
+    "backend/aip/domain/brief.py",
+    "backend/aip/domain/geometry.py",
+    "backend/aip/domain/plan.py",
+    "backend/aip/engines/__init__.py",
+    "backend/aip/engines/architecture/__init__.py",
+    "backend/aip/engines/architecture/codes.py",
+    "backend/aip/engines/architecture/layout.py",
+    "backend/aip/engines/architecture/metrics.py",
+    "backend/aip/engines/architecture/repair.py",
+    "backend/aip/engines/architecture/solar.py",
+    "backend/aip/engines/cost/__init__.py",
+    "backend/aip/engines/cost/estimator.py",
+    "backend/aip/engines/cost/rates.py",
+    "backend/aip/engines/vastu/__init__.py",
+    "backend/aip/engines/vastu/engine.py",
+    "backend/aip/engines/vastu/knowledge.py",
+    "backend/aip/rag/__init__.py",
+    "backend/aip/rag/corpus.py",
+    "backend/aip/rag/embeddings.py",
+    "backend/aip/rag/retriever.py",
+    "backend/aip/rag/store.py",
+    "backend/pyproject.toml"
+  ],
+  "token_usage": {
+    "input_tokens": 34210,
+    "cache_creation_tokens": 82400,
+    "cache_read_tokens": 468900,
+    "output_tokens": 29450,
+    "api_call_count": 28
+  },
+  "checkpoint_token_usage": {
+    "input_tokens": 34210,
+    "cache_creation_tokens": 82400,
+    "cache_read_tokens": 468900,
+    "output_tokens": 29450,
+    "api_call_count": 28
+  },
+  "sessions": [
+    {
+      "metadata": "/0/metadata.json",
+      "transcript": "/0/full.jsonl",
+      "content_hash": "/0/content_hash.txt",
+      "prompt": "/0/prompt.txt"
+    }
+  ]
+}

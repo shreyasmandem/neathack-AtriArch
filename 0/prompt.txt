@@ -1,0 +1,13 @@
+Design and implement the core Architectural Intelligence Platform (AIP): capability-addressed zero-cost LLM router, 2D polygon geometry and building domain schema.
+
+---
+
+Implement the evolutionary slicing-tree floorplan generator, solar geometry, BRE daylight factor, ventilation, sightline privacy, circulation, accessibility and NBC 2016 statutory code compliance engines.
+
+---
+
+Build the defeasible Vastu Shastra rule engine (29 classical rules from Manasara, Mayamata and Brihat Samhita with modern building-science validity weights) and the CPWD quantity takeoff + Monte Carlo cost estimator.
+
+---
+
+Wire the 13-critic committee (10 deterministic analytical solvers + 3 generative reviewers) with Pareto dominance filtering, reliability-weighted Borda consensus (MACC), and hybrid BM25 + dense RAG continual learning.
