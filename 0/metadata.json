@@ -1,0 +1,77 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4KQVF0GVB4JXH167EPJJ707",
+  "session_id": "fd077be5-cd09-4d91-beb4-30df27c1398e",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-10T20:25:14.000Z",
+  "branch": "main",
+  "checkpoints_count": 7,
+  "files_touched": [
+    ".agents/hooks.json",
+    ".claude/settings.json",
+    ".entire/.gitignore",
+    ".entire/agent-guide.md",
+    ".entire/graph-agent.md",
+    ".entire/settings.json",
+    "AGENTS.md",
+    "CLAUDE.md"
+  ],
+  "agent": "Claude Code",
+  "model": "claude-opus-4-6",
+  "turn_id": "turn_07_aa52ca3d",
+  "token_usage": {
+    "input_tokens": 14280,
+    "cache_creation_tokens": 24600,
+    "cache_read_tokens": 198400,
+    "output_tokens": 11650,
+    "api_call_count": 12
+  },
+  "checkpoint_token_usage": {
+    "input_tokens": 14280,
+    "cache_creation_tokens": 24600,
+    "cache_read_tokens": 198400,
+    "output_tokens": 11650,
+    "api_call_count": 12
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-10-10T20:25:14.000Z",
+    "agent_lines": 210,
+    "agent_removed": 0,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 210,
+    "total_lines_changed": 210,
+    "agent_percentage": 100,
+    "metric_version": 2
+  },
+  "summary": {
+    "intent": "Enable Entire Checkpoints, Entire Graph, and Entire Brain continuous memory across the repository for Antigravity and Claude Code.",
+    "outcome": "Configured automatic checkpoint linking to `github:shreyasmandem/neathack-AtriArch` and indexed 125 files, 2,862 symbols, and 12,985 relations in Entire Graph and Entire Brain.",
+    "learnings": {
+      "repo": [
+        "Entire Graph indexes 2,862 symbols and 12,985 relations across the Python backend and JS studio for deterministic impact and neighbor queries.",
+        "Entire Brain stores episodic architectural decisions and links them to commit checkpoints."
+      ],
+      "code": [
+        {
+          "path": ".entire/settings.json",
+          "line": 1,
+          "end_line": 14,
+          "finding": "Pins commit_linking=always and checkpoint_remote=github:shreyasmandem/neathack-AtriArch."
+        },
+        {
+          "path": ".entire/agent-guide.md",
+          "line": 1,
+          "end_line": 55,
+          "finding": "Directs coding agents to query Entire Brain for prior decisions and Entire Graph for structural code discovery."
+        }
+      ],
+      "workflow": [
+        "Use `entire brain brief` and `entire graph search` at the start of substantive tasks to reduce token spend."
+      ]
+    },
+    "friction": [],
+    "open_items": []
+  }
+}
