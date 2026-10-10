@@ -1,0 +1,13 @@
+Rebuild the frontend studio in the Studio Rabbit world (`rabbit.css`, `index.html`, `studio.js`): warm black and cream palette, Archivo display typography, live to-scale plot preview on the brief, and unified review stage.
+
+---
+
+Turn the generation run into a live 3D atelier (`stage3d.js`, `atelier.js`) where collectible-style architect figures set out the plot, draw each room's walls and glazing as they close, and 13 specialist critics walk on with clipboards to speak their findings.
+
+---
+
+Pace the 3D drafting team dynamically to the backend engine's estimated finish so every wall and window is drawn on screen without skipping.
+
+---
+
+Fix the floor-plan importer (`importer.py`, `recover.py`, `raster.py`) to read real-world wall-only DXF and SVG drawings by bridging door gaps along wall tangents, and parse raster floorplan images locally with OpenCV + RapidOCR.

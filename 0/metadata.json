@@ -1,0 +1,120 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4K4NDK81N2C162HRF0AAJ04",
+  "session_id": "b0274b0d-7782-4a56-82da-4c384ed7be4a",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-10T14:49:53.000Z",
+  "branch": "main",
+  "checkpoints_count": 4,
+  "files_touched": [
+    ".impeccable/design.json",
+    ".impeccable/surfaces/frontend-index-html.md",
+    "DESIGN.md",
+    "backend/aip/agents/orchestrator.py",
+    "backend/aip/api/routers/design.py",
+    "backend/aip/api/routers/imports.py",
+    "backend/aip/api/routers/plans.py",
+    "backend/aip/api/routers/system.py",
+    "backend/aip/api/schemas.py",
+    "backend/aip/engines/architecture/airflow.py",
+    "backend/aip/engines/architecture/cfd.py",
+    "backend/aip/engines/architecture/importer.py",
+    "backend/aip/engines/architecture/metrics.py",
+    "backend/aip/engines/architecture/raster.py",
+    "backend/aip/engines/architecture/recover.py",
+    "backend/aip/engines/vastu/calibration/CALIBRATION.md",
+    "backend/aip/engines/vastu/calibration/__init__.py",
+    "backend/aip/engines/vastu/calibration/adapter.py",
+    "backend/aip/engines/vastu/calibration/demo_synthetic.py",
+    "backend/aip/engines/vastu/calibration/design.py",
+    "backend/aip/engines/vastu/calibration/fit.py",
+    "backend/aip/engines/vastu/calibration/model.py",
+    "backend/aip/engines/vastu/calibration/power.py",
+    "backend/aip/engines/vastu/calibration/schema.py",
+    "backend/aip/engines/vastu/calibration/test_calibration.py",
+    "backend/aip/engines/vastu/calibration/validate.py",
+    "backend/pyproject.toml",
+    "backend/scripts/import_bench.py",
+    "backend/scripts/import_fixtures.py",
+    "backend/scripts/plan_sweep.py",
+    "backend/tests/test_import.py",
+    "frontend/atelier.js",
+    "frontend/fonts/Archivo-Italic-latin.woff2",
+    "frontend/fonts/Archivo-latin.woff2",
+    "frontend/fonts/Geist-latin.woff2",
+    "frontend/index.html",
+    "frontend/rabbit.css",
+    "frontend/stage3d.js",
+    "frontend/studio.css",
+    "frontend/studio.js",
+    "frontend/vendor/three/LICENSE",
+    "frontend/vendor/three/addons/controls/OrbitControls.js",
+    "frontend/vendor/three/addons/loaders/GLTFLoader.js",
+    "frontend/vendor/three/addons/utils/BufferGeometryUtils.js",
+    "frontend/vendor/three/three.module.min.js",
+    "frontend/viewer3d.js",
+    "scratch/verify_starburst_and_vastu_anim.py"
+  ],
+  "agent": "Claude Code",
+  "model": "claude-opus-4-6",
+  "turn_id": "turn_04_1e33a8d0",
+  "token_usage": {
+    "input_tokens": 46120,
+    "cache_creation_tokens": 78900,
+    "cache_read_tokens": 694200,
+    "output_tokens": 38740,
+    "api_call_count": 37
+  },
+  "checkpoint_token_usage": {
+    "input_tokens": 46120,
+    "cache_creation_tokens": 78900,
+    "cache_read_tokens": 694200,
+    "output_tokens": 38740,
+    "api_call_count": 37
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-10-10T14:49:53.000Z",
+    "agent_lines": 16545,
+    "agent_removed": 3933,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 16545,
+    "total_lines_changed": 20478,
+    "agent_percentage": 100,
+    "metric_version": 2
+  },
+  "summary": {
+    "intent": "Rebuild the architect studio as a live 3D drafting atelier in the Studio Rabbit aesthetic and make the floor-plan importer work locally on real-world DXF, SVG, and raster drawings.",
+    "outcome": "Shipped the Studio Rabbit UI, live 3D figurine drafting atelier with engine-paced drawing, and local topological + OpenCV/RapidOCR floorplan importer achieving 0.94-1.0 IoU across all benchmark fixtures.",
+    "learnings": {
+      "repo": [
+        "Real CAD drawings represent walls as parallel linework with door gaps; bridging collinear wall segments across door openings recovers closed room faces reliably.",
+        "Local OpenCV morphology + RapidOCR eliminates dependency on rate-limited free vision models for raster floorplan uploads."
+      ],
+      "code": [
+        {
+          "path": "backend/aip/engines/architecture/recover.py",
+          "line": 1,
+          "end_line": 220,
+          "finding": "Tangent-directed door-gap bridging and face polygonization recover rooms from unclosed wall linework."
+        },
+        {
+          "path": "frontend/stage3d.js",
+          "line": 1,
+          "end_line": 310,
+          "finding": "Pacing drafting figure speed against SSE progress estimation lands the final wall line smoothly as the backend finishes."
+        }
+      ],
+      "workflow": [
+        "Benchmark floorplan import accuracy with scripts/import_bench.py across DXF, SVG, and raster fixtures."
+      ]
+    },
+    "friction": [
+      "Free vision APIs frequently returned 429 rate limits on floorplan image uploads; solved by making local OpenCV + RapidOCR the primary parser."
+    ],
+    "open_items": [
+      "Add presentation-grade 3D architecture with room finishes, coordinated colour palettes, whole-floor breeze simulation, and 3D Vastu zone overlays."
+    ]
+  }
+}
