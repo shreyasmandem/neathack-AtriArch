@@ -1,0 +1,13 @@
+Build the manager-worker consensus negotiation protocol (`protocol.py`) so specialist worker agents iteratively repair statutory, daylight, circulation, Vastu and budget constraints after the committee vote.
+
+---
+
+Create the 98-node, 255-edge Vastu knowledge graph (`graph.py`, `reasoner.py`) with best-first path search and explicit shaucha purity edges so modern rooms (gym, home office, home theatre) are reasoned from first principles.
+
+---
+
+Write a dependency-free AutoCAD R12 DXF exporter (`dxf.py`) on standard Indian architectural layers (`A-WALL`, `A-DOOR`, `A-GLAZ`, `A-AREA`) and verify it with an independent CAD parser.
+
+---
+
+Fix multi-level floor planning and room walkability (`programme.py`, `layout.py`, `repair.py`): enforce public-to-private depth zoning, inject a real passage when 2+ bedrooms exist, align staircases and wet stacks across floors, and refuse unwalkable routes.
