@@ -1,0 +1,43 @@
+there are so many many issues, the chat in te beginning throws in so many errors, it also doesnt automatically start designing when it gets enough input like it used to, the plans are still  really bad, theres no edit plans option after its made to add in minute changes like increase this room size, move this there all that, the AI has to be really really smart, which it isnt right now, i need all of it to be production grade, literally, start preparing it for deployment, use claude for chrome, everythings there on that, register/sign up for services that are free with my shreyas0381@gmail.com email, do all the deployment online yourself, github/ vercel everythings there if u need it,  the hackathon requires us to use cfo.ai too, so use that too in claude for chrome: https://app.cfo.ai/vation-digital-330c382b/chat/265d1651-289c-4058-983c-9c37dc36613e
+
+
+
+go through all the sections of the results, see what makes sense, what doesnt, how we can make it better, does it need to be there, i need a full audit, go through every aspect of the project, fix every single bug, i have to present the demo for a hackathon tomorrow, there has to be no errors at all, test it thoroughly, as a judge, as someone with multiple edge cases that our plans still cant handle( many many things like shapes, floors, ceiling height in some parts of the house, so many things that you also have to figure out), fix all of it one by one, make sure that nothing gets left out, a clean finished result in the end, plans have to be dynamic, people can upload images that dont match the typical architectural designs we have, but it still has to work
+
+remove this ai slop: 
+A house the studio designed, built live 
+
+The engine closed the connection before returning a design. Check the server log, then try again.
+all these issues must never appear, scores have to be higher on default and many good features that are useful must be implemented, no errors whatsoever
+
+i am running you overnight, if the tokens run out, continue when the session resets (very important), when i wake up i need a fully deployed, ready to present project that has absolutely no errors, dont let me down
+
+ill be awake for about 30 minutes, so if you need any clarifications or help setting up free services on chrome for deployment let me know soon
+
+---
+
+have logged in to huggingface and kept everything ready, anything else from my side?
+
+---
+
+no use the render plan with vercel for frontend
+
+---
+
+<task-notification>
+<task-id>btinja0as</task-id>
+<tool-use-id>toolu_01BvaxXfhymHtqVVkssQueK7</tool-use-id>
+<output-file>F:\Users\shrey\Temp\claude\F--Users-shrey-Desktop-AI-Project\a374114e-eb03-4a0f-b5d1-02aa3f0bf0c1\tasks\btinja0as.output</output-file>
+<status>completed</status>
+<summary>Background command "Apply smarter ladder and retest" completed (exit code 0)</summary>
+</task-notification>
+
+---
+
+anything else from my side for the night?
+
+---
+
+ill add them tomorrow when i wake up, continue with everything i told you to do before, take your time, utilize the least amount of tokens you can while not compromising on quality, chained messages, one line updates
+
+im going afk, dont wait for my inputs, and start immediately after the sessions reset when tokens get over before them
