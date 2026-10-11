@@ -1,0 +1,212 @@
+https://hack.entire.io/neathacks-2026/
+https://neatlogs.com/hackathon
+https://entire.io/gh/shreyasmandem/-/repositories
+
+https://github.com/shreyasmandem/neathack-AtriArch
+
+
+this is the hackathon im participating in, read all the rules and guidelines and follow them properly, then continue our project in their format while making sure the quality remains the same and everything is committed properly in intervals that the rules provide
+
+
+
+i started yesterday but didnt commit, backdate the commits to 10th (yesterday and start commiting them in random intervals around 2-3 hours starting from 1 pm, commit our progress from the beginning till now with whatever we have completed go through the entire project to see what its about and the progress made with each commit
+
+the repo link is given to commit changes
+
+---
+
+continue
+
+---
+
+dont make any changes to my project, just do the commiting part til lwhere we made progress
+
+---
+
+Neathacks 2026
+Build with Entire
+Hacking with Entire? This guide will come in handy.
+Oct 10–11, 2026
+Virtual
+[Apply for Trails access (optional)](https://docs.google.com/forms/d/e/REDACTED/viewform)
+On this page
+[This event](https://hack.entire.io/neathacks-2026/#event)
+[What is Entire](https://hack.entire.io/neathacks-2026/#what-is-entire)
+[Features](https://hack.entire.io/neathacks-2026/#features)
+[Ideas](https://hack.entire.io/neathacks-2026/#ideas)
+[Connect your repo](https://hack.entire.io/neathacks-2026/#connect)
+[First checkpoint](https://hack.entire.io/neathacks-2026/#first-checkpoint)
+[Trails (optional)](https://hack.entire.io/neathacks-2026/#trails)
+[Graph & Brain](https://hack.entire.io/neathacks-2026/#continuous-memory)
+[Submit](https://hack.entire.io/neathacks-2026/#submission)
+[Resources](https://hack.entire.io/neathacks-2026/#resources)
+Entire at Neathacks 2026
+Prize
+Best Use of Entire
+Awarded to the team whose project makes the most creative use of Checkpoints, Graph or Brain.
+Entire team
+HHaimantika MitraDeveloper Relations[hmitra@entire.io](mailto:hmitra@entire.io)
+01What is Entire?
+Entire is the git forge for AI-native teams. The Entire CLI captures every AI coding agent session, so the reasoning behind the code stays with the git repo, right next to your code. Then, Continuous Memory (Entire Graph + Entire Brain) turns those sessions into living knowledge for your agents. Your repo learns from every attempt, every fix, every decision, and your agents get smarter because of it.
+[Learn more from our docs](https://docs.entire.io/)
+02Features you can build with
+Checkpoints
+Connect a Git commit to the agent sessions and decisions behind it.
+Agentic Search
+You or your agent can search semantically through previous commits, sessions, and decisions, or literal source text, across pushed, indexed repositories.
+Entire Graph
+Hands your agent a map of your codebase and can save up to 71% in token spend. Analyzes local code to find implementations, trace relationships, and investigate potential change impact.
+Entire Brain
+The memory layer that lives in your repo, not in one agent. Start a session in Claude Code, pick it up in Codex, and the context carries over.
+Agent integrations
+Capture work from supported coding agents, or add another through the Agent Integration Protocol.
+03Ideas to build
+01A debugger for agent mistakes
+Start with a failing test or bug, inspect the affected code with Graph, and trace relevant checkpoints to find where an incorrect assumption entered the implementation. Show the evidence behind the diagnosis.
+02A reviewer that checks intent
+Compare the original request with the committed change. Flag missed requirements, unexpected behavior, and claims that lack test evidence, with links to the relevant transcript and code.
+03A "before you build" assistant
+Search previous sessions for similar attempts and rejected approaches, then use Graph to locate reusable code. Produce a short briefing before the agent starts editing.
+04An architecture drift detector
+Compare Graph snapshots across commits to spot new dependencies or unexpected coupling. Attach checkpoint context explaining why each change was introduced.
+05An onboarding guide you can question
+Let a new teammate ask, "How does authentication work, and why was it designed this way?" Combine current code relationships with historical decisions and source links.
+06A regression test scout
+Use a checkpoint's changes and Graph relationships to suggest behaviors that need tests. Consult session context for edge cases the agent discussed but may not have covered.
+07A checkpoint-to-demo generator
+Turn a checkpoint into a concise walkthrough: the problem, key decisions, implementation, and recorded validation. Generate a shareable page with links back to the evidence.
+08An integration for your favorite unsupported agent
+Build an adapter that captures its sessions and connects them to commits. Ship it with lifecycle tests and a working checkpoint demo.
+Other
+Feel free to be creative and impress!
+04Connect your repository
+Sign in
+Everyone on the team signs in to [Entire](https://entire.io/) with Sign in with GitHub and authorizes the Entire GitHub App when prompted. You can do this at any time, before or after the next step.
+GitHub organization admin: import the repository
+A GitHub organization admin installs the Entire GitHub App on the organization by following the onboarding. Nothing repository-related appears for anyone in the team until this step is done.
+Sign-in order doesn't matter, but the repository and its sessions only show up after the admin has configured access.
+Once the admin has imported the repository, it appears for the whole team. No invites and no permission setup: access follows the GitHub collaborator list, so everyone keeps the same roles they have on GitHub.
+Changes can take up to an hour to sync. If the repository is missing from your list, ask your organization admin.
+Next: install the CLI and start your first checkpoint (following section).
+05Start your first checkpoint
+Install Entire, then enable it from your repository
+ShellCopy
+# macOS; see Resources for other platforms brew install --cask entireio/tap/entire cd your-repo entire enable --agent codex
+Replace codex with your agent's integration name. Start a new agent session, ask it to make a focused change, and review the result.
+Commit the change
+ShellCopy
+git add path/to/changed-file git commit -m "Build my first feature with Entire"
+Choose yes if prompted to link the commit to session context.
+Inspect your checkpoint
+ShellCopy
+entire checkpoint list entire checkpoint explain HEAD
+A normal committed checkpoint needs both captured agent context and a Git commit. [Full walkthrough](https://docs.entire.io/quickstart)
+06Turn on Trails
+Optional
+You'll see Trails in action during our demo. To use it in your own repository:
+Request access from an Entiron after you onboard on Entire
+Trails is behind a feature flag. Once you've signed up, fill in the [Trails access form](https://docs.google.com/forms/d/e/REDACTED/viewform) and someone from the Entire team will enable Trails for you.
+Enable Trails in your repository
+Open your repository in [Entire](https://entire.io/), go to Settings → General, and turn on Runners, Auto build on push, and Trails. This requires admin permission on the repository.
+Each Trail is currently backed by a GitHub PR for CI.
+Add the default Runners
+Runners evaluate each Trail and publish findings. From the repository root, run:
+ShellCopy
+entire runner setup -y
+Then commit and push the generated .entire/ files.
+You or your agent: create a Trail and work normally
+Your coding agent already knows how to use Trails through the CLI, so just ask it to create one. Or run:
+ShellCopy
+entire trail create
+Commit and push to the Trail branch as usual. The Trail updates automatically, Runners evaluate each push, and your team can review and merge from the Trail.
+07Continuous Memory
+Optional: only if you are building with Entire Graph/Brain.
+AInstall and activate entire-graph
+You or your agents can install the entire-graph plugin. Activate it once per repository:
+ShellCopy
+entire plugin install graph entire graph init-agents --repo .
+The second command creates .entire/graph-agent.md with the agent instructions, and adds a short block to your AGENTS.md and CLAUDE.md telling your agents to use entire-graph.
+Commit those three files so it applies to your whole team, then start a fresh agent session. You'll know it worked when your agent's first move is entire-graph search instead of a grep.
+Start using entire-graph
+Restart the agent so it picks up the new instructions, then ask in plain language: Where is request routing implemented? The agent runs graph queries, reads the code the graph points to, and answers with citations.
+To see what it saved you, run:
+ShellCopy
+entire graph stats --repo .
+It reads your Claude Code session transcripts, counts how many times your agent used the graph instead of grepping and reading files, and estimates the tokens it saved. For how entire-graph works, installation, and troubleshooting, see the [Graph docs](https://docs.entire.io/guides/graph/overview).
+BInstall entire-brain
+Make sure the Entire CLI and entire-graph are installed first (steps above).
+Without entire-graph, setup reports the semantic index as unavailable; sessions, docs and facts still work. Without the Entire CLI there are no sessions to read, and entire-brain falls back to code, docs and Git history.
+ShellCopy
+curl -fsSL https://raw.githubusercontent.com/entireio/entire-brain/main/scripts/get-brain.sh | bash
+The script downloads a prebuilt binary, checks it against the release checksums, and registers it with the CLI as the entire-brain plugin.
+Or build from sourceNeeds Go 1.27+, Git 2.36+, the Entire CLI on your PATH, and a C compiler for Graph's tree-sitter bindings.
+ShellCopy
+git clone https://github.com/entireio/entire-brain.git cd entire-brain ./scripts/install.sh
+This builds and registers entire-brain and entire-graph. It does not initialize a repository's memory or install the watcher. Then cd to the project repository where you want Brain and run:
+ShellCopy
+entire brain setup
+Activate your agent
+From your project repository, install the agent instructions:
+ShellCopy
+entire brain init-agents
+This embeds your existing sessions (if any) and creates or updates the agent instructions at .entire/agent-guide.md. Rerunning the command replaces this file. It also updates AGENTS.md and CLAUDE.md with references to the guide inside managed blocks; your text outside those blocks is preserved.
+Review the generated files and commit them together when the instructions should apply to your team. When entire-graph is installed, the guide tells agents to use entire-brain for prior decisions and entire-graph to locate and inspect code. Restart your agent or reload its repository instructions so it picks up the guide.
+Using an MCP client?
+Print this repository's configuration:
+ShellCopy
+entire brain mcp --print-config
+Then register it with an MCP-capable client. For example, in Claude Code:
+ShellCopy
+claude mcp add entire-brain -- entire brain mcp
+See [the agent integration guide](https://github.com/entireio/entire-brain/blob/main/docs/reference.md#how-agents-use-the-brain) and [coordination contract](https://github.com/entireio/entire-brain/blob/main/docs/agent-coordination.md) for more setup details.
+08Submission guidelines
+Suggested submission checklist
+Project: name and a short explanation of what you built.
+Entire usage: which features you used and how they support the project.
+Demo: a working link or short recording showing the main workflow.
+Repository: source code with setup and run instructions.
+Checkpoint: an accessible Entire checkpoint link, plus its checkpoint ID.
+Show your checkpoint
+Connect your repository using the [quickstart](https://hack.entire.io/neathacks-2026/#connect) and push your branch.
+Run entire status to verify checkpoint synchronization.
+In Entire, open repository → branch → commit → checkpoint.
+Show Sessions for the request and decisions, then Changes for the implementation.
+For GitHub-backed repositories, share:
+URLCopy
+https://entire.io/gh/OWNER/REPO/commit/FULL_COMMIT_SHA
+Make sure reviewers have access. A URL does not grant permissions, and checkpoints stored in public repositories are public.
+09Resources
+[Quickstart & installation](https://docs.entire.io/quickstart)
+[Checkpoints: capture and inspect](https://docs.entire.io/guides/checkpoints/capture-checkpoints)
+[Graph: setup and usage](https://docs.entire.io/guides/graph/set-up-graph)
+[Search: find past work and code](https://docs.entire.io/guides/search/search-in-cli)
+[Build a new agent integration](https://docs.entire.io/agents/agent-integration-protocol/build-an-agent-integration)
+[Join our Discord](https://discord.gg/tjhUTA7J7)
+
+see if you can enable any of this
+
+---
+
+get this to actually show numbers
+
+---
+
+npm install --global neatlogs-cli@0.2.0
+neatlogs auth login
+
+API KEY: REDACTED
+
+# Trace an AI agent with Neatlogs
+
+Set up Neatlogs tracing in this working directory. Follow these steps in order.
+
+## Step 1: Set up Neatlogs access
+
+Neatlogs project ID: `467f83ee-e953-4b72-aa4a-2831318be004`
+
+Set `NEATLOGS_API_KEY` to the key below in the shell the user will run the app from,
+for example `export NEATLOGS_API_KEY="REDACTED"`. If the app loads a
+`.env` file, add it there instead. Do not commit the key to version control.
+
+
+set this up too
