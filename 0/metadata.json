@@ -1,0 +1,37 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4PBYFX0H5VGEJ61GA11J2G8",
+  "session_id": "a374114e-eb03-4a0f-b5d1-02aa3f0bf0c1",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-11T20:54:57.361299Z",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "docs/cfo-ai/README.md"
+  ],
+  "agent": "Claude Code",
+  "model": "claude-sonnet-5-5",
+  "turn_id": "7364dc0f1787",
+  "checkpoint_transcript_start": 2418,
+  "transcript_lines_at_start": 2418,
+  "compact_transcript_start": 388,
+  "token_usage": {
+    "input_tokens": 4,
+    "cache_creation_tokens": 1870,
+    "cache_read_tokens": 1195034,
+    "output_tokens": 832,
+    "api_call_count": 2
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-10-11T20:54:56.7328373Z",
+    "agent_lines": 0,
+    "agent_removed": 0,
+    "human_added": 0,
+    "human_modified": 3,
+    "human_removed": 0,
+    "total_committed": 0,
+    "total_lines_changed": 3,
+    "agent_percentage": 0,
+    "metric_version": 2
+  }
+}
