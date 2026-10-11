@@ -29,3 +29,7 @@ im talking about the response speed of this chat, the ai is taking too long to r
 ---
 
 fix this too
+
+---
+
+Try again
