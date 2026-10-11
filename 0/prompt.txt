@@ -174,3 +174,7 @@ fix this issue too, it doesnt start automatically
 ---
 
 Also exteriors are still the default designs, I need many many exterior designs, each unique and stylish, based on the users preferences, design some really good exteriors, keep one agent just for that and specialize it in exteriors
+
+---
+
+I hit my usage limit while you were working, but it has reset now. Please continue from where you left off.
