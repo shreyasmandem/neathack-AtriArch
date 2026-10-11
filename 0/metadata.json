@@ -1,0 +1,62 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4P8WKZX4JZ8CN2E3FP28Y3E",
+  "session_id": "a374114e-eb03-4a0f-b5d1-02aa3f0bf0c1",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-11T20:01:31.3195965Z",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "backend/aip/engines/architecture/editor.py",
+    "frontend/editor.js"
+  ],
+  "agent": "Claude Code",
+  "model": "claude-sonnet-5-5",
+  "turn_id": "201af2da18d3",
+  "checkpoint_transcript_start": 1112,
+  "transcript_lines_at_start": 1112,
+  "compact_transcript_start": 202,
+  "token_usage": {
+    "input_tokens": 120,
+    "cache_creation_tokens": 101405,
+    "cache_read_tokens": 22236889,
+    "output_tokens": 54624,
+    "api_call_count": 60
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-10-11T20:01:30.8030519Z",
+    "agent_lines": 0,
+    "agent_removed": 0,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 3206,
+    "total_committed": 4,
+    "total_lines_changed": 3210,
+    "agent_percentage": 0,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 3887,
+      "user_lines_removed": 3206,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        ".impeccable/hook.cache.json": 1,
+        "backend/aip/api/routers/imports.py": 243,
+        "backend/aip/api/routers/plans.py": 492,
+        "backend/aip/engines/architecture/editor.py": 363,
+        "frontend/editor.js": 155,
+        "frontend/rabbit.css": 24,
+        "frontend/studio.js": 2608,
+        "scratch/fp.svg": 1
+      },
+      "user_removed_per_file": {
+        "backend/aip/api/routers/imports.py": 238,
+        "backend/aip/api/routers/plans.py": 451,
+        "frontend/studio.js": 2517
+      }
+    }
+  ]
+}
