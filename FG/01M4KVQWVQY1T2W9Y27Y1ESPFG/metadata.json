@@ -1,0 +1,39 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4KVQWVQY1T2W9Y27Y1ESPFG",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "frontend/stage3d.js"
+  ],
+  "sessions": [
+    {
+      "metadata": "/FG/01M4KVQWVQY1T2W9Y27Y1ESPFG/0/metadata.json",
+      "transcript": "/FG/01M4KVQWVQY1T2W9Y27Y1ESPFG/0/full.jsonl",
+      "context": "/FG/01M4KVQWVQY1T2W9Y27Y1ESPFG/0/context.md",
+      "content_hash": "/FG/01M4KVQWVQY1T2W9Y27Y1ESPFG/0/content_hash.txt",
+      "prompt": "/FG/01M4KVQWVQY1T2W9Y27Y1ESPFG/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 2064,
+    "cache_creation_tokens": 8470408,
+    "cache_read_tokens": 436564589,
+    "output_tokens": 1061141,
+    "api_call_count": 1036
+  },
+  "combined_attribution": {
+    "calculated_at": "2026-10-10T21:33:29.7658753Z",
+    "agent_lines": 117,
+    "agent_removed": 42,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 117,
+    "total_lines_changed": 159,
+    "agent_percentage": 100,
+    "metric_version": 2
+  },
+  "checkpoint_version": 1
+}

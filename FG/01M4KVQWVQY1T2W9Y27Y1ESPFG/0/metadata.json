@@ -1,0 +1,48 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4KVQWVQY1T2W9Y27Y1ESPFG",
+  "session_id": "b7a02f55-58cf-4d44-a990-74a006762936",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-10T21:33:15.3191717Z",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "save_step_count": 1,
+  "files_touched": [
+    "frontend/stage3d.js"
+  ],
+  "agent": "Antigravity",
+  "model": "",
+  "turn_id": "483db21a72b7",
+  "session_metrics": {
+    "turn_count": 1
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-10-10T21:33:15.1519092Z",
+    "agent_lines": 0,
+    "agent_removed": 0,
+    "human_added": 0,
+    "human_modified": 101,
+    "human_removed": 1837,
+    "total_committed": 0,
+    "total_lines_changed": 1938,
+    "agent_percentage": 0,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 1913,
+      "user_lines_removed": 1900,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        ".impeccable/hook.cache.json": 1,
+        "frontend/stage3d.js": 1912
+      },
+      "user_removed_per_file": {
+        "frontend/stage3d.js": 1900
+      }
+    }
+  ],
+  "checkpoint_version": 1
+}
