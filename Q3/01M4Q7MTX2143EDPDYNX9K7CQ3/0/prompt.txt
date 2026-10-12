@@ -1,0 +1,23 @@
+Make sure everything in the deployment works smoothly
+
+---
+
+where do i add in the api keys
+
+---
+
+give me the keys to paste i nthere
+
+---
+
+done, its deploying right now, fix everything, make sure everything works perfectly in deployment with no errors, smooth
+
+---
+
+<task-notification>
+<task-id>bv59xapb9</task-id>
+<tool-use-id>toolu_01BZyUhTGaHyx84hMMgSedJ2</tool-use-id>
+<output-file>F:\Users\shrey\Temp\claude\F--Users-shrey-Desktop-AI-Project\a374114e-eb03-4a0f-b5d1-02aa3f0bf0c1\tasks\bv59xapb9.output</output-file>
+<status>completed</status>
+<summary>Background command "Poll live health until Groq provider shows configured" completed (exit code 0)</summary>
+</task-notification>
