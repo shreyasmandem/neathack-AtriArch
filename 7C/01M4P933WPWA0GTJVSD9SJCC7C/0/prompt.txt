@@ -1,0 +1,1 @@
+Just reply with yes/no, will you automatically continue when session resets when tokens are over for this chat?
