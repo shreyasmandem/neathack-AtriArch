@@ -1,0 +1,30 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4NQ85QCW650S0HXARNCAVQZ",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "backend/aip/engines/architecture/drawings.py",
+    "backend/aip/engines/architecture/layout.py",
+    "backend/aip/engines/architecture/parti.py",
+    "frontend/stage3d.js"
+  ],
+  "sessions": [
+    {
+      "metadata": "/QZ/01M4NQ85QCW650S0HXARNCAVQZ/0/metadata.json",
+      "transcript": "/QZ/01M4NQ85QCW650S0HXARNCAVQZ/0/full.jsonl",
+      "context": "/QZ/01M4NQ85QCW650S0HXARNCAVQZ/0/context.md",
+      "content_hash": "/QZ/01M4NQ85QCW650S0HXARNCAVQZ/0/content_hash.txt",
+      "prompt": "/QZ/01M4NQ85QCW650S0HXARNCAVQZ/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 56,
+    "cache_creation_tokens": 27983,
+    "cache_read_tokens": 26029029,
+    "output_tokens": 17608,
+    "api_call_count": 28
+  },
+  "checkpoint_version": 1
+}
