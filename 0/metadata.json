@@ -1,0 +1,37 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4PJ41PV49WNXP9S08AZNMKE",
+  "session_id": "a374114e-eb03-4a0f-b5d1-02aa3f0bf0c1",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-11T22:42:51.2470451Z",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "backend/aip/engines/architecture/layout.py"
+  ],
+  "agent": "Claude Code",
+  "model": "claude-sonnet-5-5",
+  "turn_id": "6532b8fefe3e",
+  "checkpoint_transcript_start": 3406,
+  "transcript_lines_at_start": 3406,
+  "compact_transcript_start": 539,
+  "token_usage": {
+    "input_tokens": 44,
+    "cache_creation_tokens": 27936,
+    "cache_read_tokens": 17283864,
+    "output_tokens": 15463,
+    "api_call_count": 22
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-10-11T22:42:50.4228961Z",
+    "agent_lines": 0,
+    "agent_removed": 0,
+    "human_added": 8,
+    "human_modified": 3,
+    "human_removed": 0,
+    "total_committed": 8,
+    "total_lines_changed": 11,
+    "agent_percentage": 0,
+    "metric_version": 2
+  }
+}
