@@ -1,0 +1,29 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4Q5EGMFM8E5839KTT6318QV",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "backend/aip/api/routers/plans.py",
+    "backend/aip/engines/architecture/corridor.py",
+    "backend/tests/test_api.py",
+    "frontend/studio.js"
+  ],
+  "sessions": [
+    {
+      "metadata": "/0/metadata.json",
+      "transcript": "/0/full.jsonl",
+      "compact_transcript": "/0/transcript.jsonl",
+      "content_hash": "/0/content_hash.txt",
+      "prompt": ""
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 38,
+    "cache_creation_tokens": 30620,
+    "cache_read_tokens": 17656089,
+    "output_tokens": 21633,
+    "api_call_count": 19
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4Q5EGMFM8E5839KTT6318QV",
+  "session_id": "a374114e-eb03-4a0f-b5d1-02aa3f0bf0c1",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-12T04:20:43.5651201Z",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "backend/aip/api/routers/plans.py",
+    "backend/aip/engines/architecture/corridor.py",
+    "backend/tests/test_api.py",
+    "frontend/studio.js"
+  ],
+  "agent": "Claude Code",
+  "model": "claude-sonnet-5-5",
+  "turn_id": "45ac325116a7",
+  "checkpoint_transcript_start": 3980,
+  "transcript_lines_at_start": 3980,
+  "compact_transcript_start": 632,
+  "token_usage": {
+    "input_tokens": 38,
+    "cache_creation_tokens": 30620,
+    "cache_read_tokens": 17656089,
+    "output_tokens": 21633,
+    "api_call_count": 19
+  },
+  "session_metrics": {
+    "turn_count": 4
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-10-12T04:20:39.3059932Z",
+    "agent_lines": 94,
+    "agent_removed": 7,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 94,
+    "total_lines_changed": 101,
+    "agent_percentage": 100,
+    "metric_version": 2
+  }
+}
