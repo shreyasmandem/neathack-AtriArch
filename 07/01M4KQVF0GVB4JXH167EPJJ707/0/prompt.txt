@@ -1,0 +1,5 @@
+Enable Entire CLI session and checkpoint tracking in the repository for both Antigravity and Claude Code, and pin the checkpoint remote to `github:shreyasmandem/neathack-AtriArch`.
+
+---
+
+Install and initialize Entire Graph (`v0.4.0`) and Entire Brain (`v0.1.0`) continuous memory across the repository (`entire graph init-agents --repo .`, `entire brain setup`, `entire brain init-agents`) so agents use the semantic code graph and episodic memory.

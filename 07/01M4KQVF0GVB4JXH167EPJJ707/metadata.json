@@ -1,0 +1,41 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4KQVF0GVB4JXH167EPJJ707",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 7,
+  "files_touched": [
+    ".agents/hooks.json",
+    ".claude/settings.json",
+    ".entire/.gitignore",
+    ".entire/agent-guide.md",
+    ".entire/graph-agent.md",
+    ".entire/settings.json",
+    "AGENTS.md",
+    "CLAUDE.md"
+  ],
+  "token_usage": {
+    "input_tokens": 14280,
+    "cache_creation_tokens": 24600,
+    "cache_read_tokens": 198400,
+    "output_tokens": 11650,
+    "api_call_count": 12
+  },
+  "checkpoint_token_usage": {
+    "input_tokens": 14280,
+    "cache_creation_tokens": 24600,
+    "cache_read_tokens": 198400,
+    "output_tokens": 11650,
+    "api_call_count": 12
+  },
+  "sessions": [
+    {
+      "metadata": "/07/01M4KQVF0GVB4JXH167EPJJ707/0/metadata.json",
+      "transcript": "/07/01M4KQVF0GVB4JXH167EPJJ707/0/full.jsonl",
+      "context": "/07/01M4KQVF0GVB4JXH167EPJJ707/0/context.md",
+      "content_hash": "/07/01M4KQVF0GVB4JXH167EPJJ707/0/content_hash.txt",
+      "prompt": "/07/01M4KQVF0GVB4JXH167EPJJ707/0/prompt.txt"
+    }
+  ],
+  "checkpoint_version": 1
+}
