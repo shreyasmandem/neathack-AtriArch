@@ -1,0 +1,28 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4PBXDKMVQBWB4QF0HZCQWXA",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "docs/cfo-ai/README.md",
+    "docs/cfo-ai/forecast-assumptions.jpg"
+  ],
+  "sessions": [
+    {
+      "metadata": "/XA/01M4PBXDKMVQBWB4QF0HZCQWXA/0/metadata.json",
+      "transcript": "/XA/01M4PBXDKMVQBWB4QF0HZCQWXA/0/full.jsonl",
+      "context": "/XA/01M4PBXDKMVQBWB4QF0HZCQWXA/0/context.md",
+      "content_hash": "/XA/01M4PBXDKMVQBWB4QF0HZCQWXA/0/content_hash.txt",
+      "prompt": "/XA/01M4PBXDKMVQBWB4QF0HZCQWXA/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 4,
+    "cache_creation_tokens": 6467,
+    "cache_read_tokens": 1182767,
+    "output_tokens": 1451,
+    "api_call_count": 2
+  },
+  "checkpoint_version": 1
+}
