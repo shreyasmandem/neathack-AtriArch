@@ -1,0 +1,58 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4N9W7EHCCYKNSBXMH3KEC9B",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "HANDOFF.md",
+    "backend/aip/agents/computed_review.py",
+    "backend/aip/agents/critics.py",
+    "backend/aip/agents/orchestrator.py",
+    "backend/aip/core/config.py",
+    "backend/aip/engines/architecture/layout.py",
+    "backend/aip/engines/architecture/programme.py",
+    "backend/aip/engines/experience/exteriors.py",
+    "backend/aip/engines/experience/facades.py",
+    "backend/scripts/plan_audit.py",
+    "backend/tests/test_levels.py",
+    "frontend/rabbit.css",
+    "frontend/stage3d.js"
+  ],
+  "sessions": [
+    {
+      "metadata": "/9B/01M4N9W7EHCCYKNSBXMH3KEC9B/0/metadata.json",
+      "transcript": "/9B/01M4N9W7EHCCYKNSBXMH3KEC9B/0/full.jsonl",
+      "context": "/9B/01M4N9W7EHCCYKNSBXMH3KEC9B/0/context.md",
+      "content_hash": "/9B/01M4N9W7EHCCYKNSBXMH3KEC9B/0/content_hash.txt",
+      "prompt": "/9B/01M4N9W7EHCCYKNSBXMH3KEC9B/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 3776,
+    "cache_creation_tokens": 11908813,
+    "cache_read_tokens": 878087566,
+    "output_tokens": 1906965,
+    "api_call_count": 1897,
+    "subagent_tokens": {
+      "input_tokens": 0,
+      "cache_creation_tokens": 0,
+      "cache_read_tokens": 0,
+      "output_tokens": 0,
+      "api_call_count": 0
+    }
+  },
+  "combined_attribution": {
+    "calculated_at": "2026-10-11T11:00:20.7392131Z",
+    "agent_lines": 633,
+    "agent_removed": 145,
+    "human_added": 1558,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 2191,
+    "total_lines_changed": 2336,
+    "agent_percentage": 33.30479452054795,
+    "metric_version": 2
+  },
+  "checkpoint_version": 1
+}
