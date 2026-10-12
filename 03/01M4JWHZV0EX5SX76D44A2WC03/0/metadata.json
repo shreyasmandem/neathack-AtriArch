@@ -1,0 +1,121 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4JWHZV0EX5SX76D44A2WC03",
+  "session_id": "955461d1-2de5-4496-8441-6069f418d7cb",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-10T12:28:12.000Z",
+  "branch": "main",
+  "checkpoints_count": 3,
+  "files_touched": [
+    ".claude/launch.json",
+    "DESIGN.md",
+    "README.md",
+    "backend/aip/agents/orchestrator.py",
+    "backend/aip/agents/protocol.py",
+    "backend/aip/api/app.py",
+    "backend/aip/api/routers/design.py",
+    "backend/aip/api/routers/imports.py",
+    "backend/aip/api/routers/plans.py",
+    "backend/aip/api/schemas.py",
+    "backend/aip/core/config.py",
+    "backend/aip/core/providers.py",
+    "backend/aip/domain/brief.py",
+    "backend/aip/domain/plan.py",
+    "backend/aip/engines/architecture/airflow.py",
+    "backend/aip/engines/architecture/cfd.py",
+    "backend/aip/engines/architecture/codes.py",
+    "backend/aip/engines/architecture/dxf.py",
+    "backend/aip/engines/architecture/importer.py",
+    "backend/aip/engines/architecture/layout.py",
+    "backend/aip/engines/architecture/metrics.py",
+    "backend/aip/engines/architecture/programme.py",
+    "backend/aip/engines/cost/estimator.py",
+    "backend/aip/engines/vastu/engine.py",
+    "backend/aip/engines/vastu/graph.py",
+    "backend/aip/engines/vastu/reasoner.py",
+    "backend/pyproject.toml",
+    "backend/scripts/build_report.py",
+    "backend/tests/test_api.py",
+    "backend/tests/test_import.py",
+    "backend/tests/test_layout_sense.py",
+    "backend/tests/test_levels.py",
+    "backend/tests/test_reasoning.py",
+    "docs/AIP_Project_Report_Phase1.docx",
+    "docs/ARCHITECTURE.md",
+    "embed/aip-widget.js",
+    "embed/demo.html",
+    "frontend/classic.css",
+    "frontend/classic.html",
+    "frontend/index.html",
+    "frontend/logo.png",
+    "frontend/logo_emblem.png",
+    "frontend/logo_gold.png",
+    "frontend/logo_luxe.png",
+    "frontend/logo_silver.png",
+    "frontend/studio.css",
+    "frontend/studio.js"
+  ],
+  "agent": "Claude Code",
+  "model": "claude-opus-4-6",
+  "turn_id": "turn_03_ef7dfb70",
+  "token_usage": {
+    "input_tokens": 42680,
+    "cache_creation_tokens": 71500,
+    "cache_read_tokens": 618400,
+    "output_tokens": 35190,
+    "api_call_count": 34
+  },
+  "checkpoint_token_usage": {
+    "input_tokens": 42680,
+    "cache_creation_tokens": 71500,
+    "cache_read_tokens": 618400,
+    "output_tokens": 35190,
+    "api_call_count": 34
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-10-10T12:28:12.000Z",
+    "agent_lines": 14460,
+    "agent_removed": 874,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 14460,
+    "total_lines_changed": 15334,
+    "agent_percentage": 100,
+    "metric_version": 2
+  },
+  "summary": {
+    "intent": "Add post-vote manager-worker constraint negotiation, a symbolic Vastu knowledge graph, AutoCAD R12 DXF export, and walkable multi-storey room zoning.",
+    "outcome": "Shipped the monotonic manager-worker negotiation loop, 98-node Vastu graph (5.16x coverage gain), verified DXF writer, and walkable multi-floor layout synthesis.",
+    "learnings": {
+      "repo": [
+        "Negotiation proposals are accepted only when re-evaluating the entire scheme yields a positive net gain with hard constraints weighted 3x soft.",
+        "Modelling shaucha (ritual purity) explicitly in the Vastu graph prevents elemental water matching from placing a WC in the sacred north-east (Ishanya)."
+      ],
+      "code": [
+        {
+          "path": "backend/aip/agents/protocol.py",
+          "line": 440,
+          "end_line": 740,
+          "finding": "Monotonic acceptance guard ensures negotiation never degrades a scheme between rounds."
+        },
+        {
+          "path": "backend/aip/engines/vastu/graph.py",
+          "line": 1,
+          "end_line": 260,
+          "finding": "98-node, 255-edge graph expands assessable room placements from 112 to 578 with 99.1% corpus agreement."
+        }
+      ],
+      "workflow": [
+        "Validate exported DXF files by reading them back with an independent CAD parser and asserting wall lengths and room areas."
+      ]
+    },
+    "friction": [
+      "Purely elemental graph paths initially approved northeast bathrooms; resolved by adding explicit incompatible_with purity edges."
+    ],
+    "open_items": [
+      "Rebuild the frontend studio as an interactive 3D architectural atelier and harden the local DXF/SVG/raster floorplan importer."
+    ]
+  },
+  "checkpoint_version": 1
+}
