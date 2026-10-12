@@ -1,0 +1,34 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4NSKTQA3Q3KKS9HAKGMA2RJ",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "backend/aip/agents/brief_agent.py",
+    "backend/aip/api/schemas.py",
+    "backend/aip/core/llm.py",
+    "backend/aip/domain/brief.py",
+    "backend/aip/engines/architecture/layout.py",
+    "backend/aip/engines/architecture/parti.py",
+    "backend/aip/engines/architecture/rowhouse.py",
+    "backend/aip/engines/architecture/spine.py"
+  ],
+  "sessions": [
+    {
+      "metadata": "/RJ/01M4NSKTQA3Q3KKS9HAKGMA2RJ/0/metadata.json",
+      "transcript": "/RJ/01M4NSKTQA3Q3KKS9HAKGMA2RJ/0/full.jsonl",
+      "context": "/RJ/01M4NSKTQA3Q3KKS9HAKGMA2RJ/0/context.md",
+      "content_hash": "/RJ/01M4NSKTQA3Q3KKS9HAKGMA2RJ/0/content_hash.txt",
+      "prompt": "/RJ/01M4NSKTQA3Q3KKS9HAKGMA2RJ/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 1196,
+    "cache_creation_tokens": 1793108,
+    "cache_read_tokens": 316767185,
+    "output_tokens": 538932,
+    "api_call_count": 600
+  },
+  "checkpoint_version": 1
+}
