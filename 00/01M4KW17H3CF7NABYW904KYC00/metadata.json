@@ -1,0 +1,30 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4KW17H3CF7NABYW904KYC00",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "backend/aip/engines/vastu/placements.py",
+    "frontend/rabbit.css",
+    "frontend/studio.js",
+    "frontend/viewer3d.js"
+  ],
+  "sessions": [
+    {
+      "metadata": "/00/01M4KW17H3CF7NABYW904KYC00/0/metadata.json",
+      "transcript": "/00/01M4KW17H3CF7NABYW904KYC00/0/full.jsonl",
+      "context": "/00/01M4KW17H3CF7NABYW904KYC00/0/context.md",
+      "content_hash": "/00/01M4KW17H3CF7NABYW904KYC00/0/content_hash.txt",
+      "prompt": "/00/01M4KW17H3CF7NABYW904KYC00/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 2090,
+    "cache_creation_tokens": 8497262,
+    "cache_read_tokens": 442070171,
+    "output_tokens": 1074784,
+    "api_call_count": 1049
+  },
+  "checkpoint_version": 1
+}
