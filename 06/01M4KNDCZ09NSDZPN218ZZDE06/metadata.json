@@ -1,0 +1,49 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4KNDCZ09NSDZPN218ZZDE06",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 6,
+  "files_touched": [
+    ".claude/launch.json",
+    "backend/aip/agents/orchestrator.py",
+    "backend/aip/agents/protocol.py",
+    "backend/aip/api/routers/design.py",
+    "backend/aip/api/schemas.py",
+    "backend/aip/domain/brief.py",
+    "backend/aip/engines/architecture/feasibility.py",
+    "backend/aip/engines/architecture/importer.py",
+    "backend/aip/engines/architecture/layout.py",
+    "backend/aip/engines/architecture/programme.py",
+    "backend/scripts/plan_audit.py",
+    "backend/scripts/plan_sweep.py",
+    "backend/tests/test_api.py",
+    "backend/tests/test_engines.py",
+    "backend/tests/test_feasibility.py",
+    "backend/tests/test_import.py"
+  ],
+  "token_usage": {
+    "input_tokens": 36540,
+    "cache_creation_tokens": 61200,
+    "cache_read_tokens": 574800,
+    "output_tokens": 32180,
+    "api_call_count": 29
+  },
+  "checkpoint_token_usage": {
+    "input_tokens": 36540,
+    "cache_creation_tokens": 61200,
+    "cache_read_tokens": 574800,
+    "output_tokens": 32180,
+    "api_call_count": 29
+  },
+  "sessions": [
+    {
+      "metadata": "/06/01M4KNDCZ09NSDZPN218ZZDE06/0/metadata.json",
+      "transcript": "/06/01M4KNDCZ09NSDZPN218ZZDE06/0/full.jsonl",
+      "context": "/06/01M4KNDCZ09NSDZPN218ZZDE06/0/context.md",
+      "content_hash": "/06/01M4KNDCZ09NSDZPN218ZZDE06/0/content_hash.txt",
+      "prompt": "/06/01M4KNDCZ09NSDZPN218ZZDE06/0/prompt.txt"
+    }
+  ],
+  "checkpoint_version": 1
+}

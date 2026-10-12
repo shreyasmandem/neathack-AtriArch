@@ -1,0 +1,13 @@
+Audit generated floor plans across multiple plot sizes and programmes (`scripts/plan_audit.py`) to identify why tight plots produce narrow slot rooms and why generous plots (e.g. 60x40) produce undersized footprints.
+
+---
+
+Build a pre-search feasibility gate (`backend/aip/engines/architecture/feasibility.py`) that decides whether the programme fits the plot before any evolutionary search runs: add a floor if FAR/height allow, drop optional rooms in architect order, shrink toward furnishable minimums, or raise `InfeasibleBriefError` (HTTP 422) with plain-English advisories.
+
+---
+
+Lock the dog-leg staircase (2.4 x 4.5 m) as fixed slicing-tree cuts so every floor shares the exact same stair rectangle across mutations, enforce habitable aspect-ratio caps and plot-derived passage sizing, and grow generous plots up to room luxury caps.
+
+---
+
+Write comprehensive tests (`backend/tests/test_feasibility.py`) covering stair alignment, floor addition, optional room dropping, typed 422 refusal, aspect caps, corridor share, and plot-filling luxury growth.
