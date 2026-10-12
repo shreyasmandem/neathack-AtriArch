@@ -1,0 +1,35 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4NPJ3CN0H085M5DH9KCYE1F",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "files_touched": [
+    ".dockerignore",
+    "CHECKLIST.md",
+    "DEPLOY.md",
+    "Dockerfile",
+    "HANDOFF.md",
+    "backend/aip/api/security.py",
+    "backend/aip/core/config.py",
+    "frontend/rabbit.css",
+    "render.yaml"
+  ],
+  "sessions": [
+    {
+      "metadata": "/1F/01M4NPJ3CN0H085M5DH9KCYE1F/0/metadata.json",
+      "transcript": "/1F/01M4NPJ3CN0H085M5DH9KCYE1F/0/full.jsonl",
+      "context": "/1F/01M4NPJ3CN0H085M5DH9KCYE1F/0/context.md",
+      "content_hash": "/1F/01M4NPJ3CN0H085M5DH9KCYE1F/0/content_hash.txt",
+      "prompt": "/1F/01M4NPJ3CN0H085M5DH9KCYE1F/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 46,
+    "cache_creation_tokens": 21119,
+    "cache_read_tokens": 20689727,
+    "output_tokens": 11662,
+    "api_call_count": 23
+  },
+  "checkpoint_version": 1
+}
