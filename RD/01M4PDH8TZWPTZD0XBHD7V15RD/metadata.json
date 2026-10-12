@@ -1,0 +1,28 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4PDH8TZWPTZD0XBHD7V15RD",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "CHECKLIST.md",
+    "backend/aip/engines/architecture/parti.py"
+  ],
+  "sessions": [
+    {
+      "metadata": "/RD/01M4PDH8TZWPTZD0XBHD7V15RD/0/metadata.json",
+      "transcript": "/RD/01M4PDH8TZWPTZD0XBHD7V15RD/0/full.jsonl",
+      "context": "/RD/01M4PDH8TZWPTZD0XBHD7V15RD/0/context.md",
+      "content_hash": "/RD/01M4PDH8TZWPTZD0XBHD7V15RD/0/content_hash.txt",
+      "prompt": "/RD/01M4PDH8TZWPTZD0XBHD7V15RD/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 14,
+    "cache_creation_tokens": 9259,
+    "cache_read_tokens": 4597842,
+    "output_tokens": 5933,
+    "api_call_count": 7
+  },
+  "checkpoint_version": 1
+}
