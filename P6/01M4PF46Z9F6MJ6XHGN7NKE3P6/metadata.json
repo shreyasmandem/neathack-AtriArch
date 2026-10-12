@@ -1,0 +1,27 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4PF46Z9F6MJ6XHGN7NKE3P6",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "files_touched": [
+    ".github/workflows/keepalive.yml"
+  ],
+  "sessions": [
+    {
+      "metadata": "/P6/01M4PF46Z9F6MJ6XHGN7NKE3P6/0/metadata.json",
+      "transcript": "/P6/01M4PF46Z9F6MJ6XHGN7NKE3P6/0/full.jsonl",
+      "context": "/P6/01M4PF46Z9F6MJ6XHGN7NKE3P6/0/context.md",
+      "content_hash": "/P6/01M4PF46Z9F6MJ6XHGN7NKE3P6/0/content_hash.txt",
+      "prompt": "/P6/01M4PF46Z9F6MJ6XHGN7NKE3P6/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 4,
+    "cache_creation_tokens": 1995,
+    "cache_read_tokens": 1405252,
+    "output_tokens": 1386,
+    "api_call_count": 2
+  },
+  "checkpoint_version": 1
+}
