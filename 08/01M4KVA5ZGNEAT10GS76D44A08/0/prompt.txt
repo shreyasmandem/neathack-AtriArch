@@ -1,0 +1,5 @@
+Set up Neatlogs tracing across the multi-agent architectural pipeline (WORKFLOW, AGENT, RETRIEVER, CHAIN, and LLM spans) and maintain hackathon.md at the repository root.
+
+---
+
+Wire Neatlogs spans into `DesignPipeline.run`, `Agent.execute`, `LLMRouter.complete`, `retrieve_for_brief`, and FastAPI `lifespan`, and add unit tests (`tests/test_telemetry.py`) plus `hackathon.md`.

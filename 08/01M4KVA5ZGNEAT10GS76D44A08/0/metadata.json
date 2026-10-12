@@ -1,0 +1,72 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4KVA5ZGNEAT10GS76D44A08",
+  "session_id": "fd077be5-cd09-4d91-beb4-30df27c1398e",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-10T21:25:42Z",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "files_touched": [
+    ".gitignore",
+    "backend/aip/agents/base.py",
+    "backend/aip/agents/orchestrator.py",
+    "backend/aip/api/app.py",
+    "backend/aip/core/config.py",
+    "backend/aip/core/llm.py",
+    "backend/aip/core/logging.py",
+    "backend/aip/core/telemetry.py",
+    "backend/aip/rag/retriever.py",
+    "backend/pyproject.toml",
+    "backend/tests/test_telemetry.py",
+    "hackathon.md"
+  ],
+  "agent": "Claude Code",
+  "model": "claude-opus-4-6",
+  "turn_id": "01M4KTP8P0TURN08",
+  "token_usage": {
+    "input_tokens": 16400,
+    "cache_creation_tokens": 28400,
+    "cache_read_tokens": 224000,
+    "output_tokens": 13800,
+    "api_call_count": 14
+  },
+  "checkpoint_token_usage": {
+    "input_tokens": 16400,
+    "cache_creation_tokens": 28400,
+    "cache_read_tokens": 224000,
+    "output_tokens": 13800,
+    "api_call_count": 14
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-10-10T21:25:42Z",
+    "agent_lines": 385,
+    "human_added": 12,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 397,
+    "agent_percentage": 97.0
+  },
+  "summary": {
+    "intent": "Integrate Neatlogs observability tracing across the multi-agent architectural pipeline and create the neatHack 2026 build log (hackathon.md).",
+    "outcome": "Added backend/aip/core/telemetry.py instrumenting WORKFLOW, AGENT, RETRIEVER, CHAIN, and LLM spans, verified live trace export and unit tests (tests/test_telemetry.py), and documented all milestones in hackathon.md.",
+    "learnings": {
+      "repo": [
+        "Keeping neatlogs_enabled=False in hermetic_settings preserves offline determinism for unit tests while enabling full OpenInference tracing in development and production."
+      ],
+      "code": [
+        {
+          "path": "backend/aip/core/telemetry.py",
+          "line": 1,
+          "end_line": 225,
+          "finding": "Provides context managers for WORKFLOW, AGENT, RETRIEVER, CHAIN, and LLM spans backed by the Neatlogs SDK."
+        }
+      ],
+      "workflow": [
+        "Use InMemoryDiagnosticSpanExporter in tests/test_telemetry.py to assert span hierarchy without network calls."
+      ]
+    },
+    "friction": [],
+    "open_items": []
+  },
+  "checkpoint_version": 1
+}
