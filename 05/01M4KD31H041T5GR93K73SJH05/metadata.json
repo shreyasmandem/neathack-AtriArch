@@ -1,0 +1,46 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4KD31H041T5GR93K73SJH05",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 5,
+  "files_touched": [
+    "backend/aip/api/routers/plans.py",
+    "backend/aip/engines/architecture/windflow.py",
+    "backend/aip/engines/experience/arch3d.py",
+    "backend/aip/engines/experience/model3d.py",
+    "backend/aip/engines/experience/palettes.py",
+    "backend/aip/engines/vastu/placements.py",
+    "backend/tests/test_windflow.py",
+    "frontend/airflow.js",
+    "frontend/index.html",
+    "frontend/rabbit.css",
+    "frontend/stage3d.js",
+    "frontend/studio.js",
+    "frontend/viewer3d.js"
+  ],
+  "token_usage": {
+    "input_tokens": 29850,
+    "cache_creation_tokens": 53400,
+    "cache_read_tokens": 489600,
+    "output_tokens": 26410,
+    "api_call_count": 24
+  },
+  "checkpoint_token_usage": {
+    "input_tokens": 29850,
+    "cache_creation_tokens": 53400,
+    "cache_read_tokens": 489600,
+    "output_tokens": 26410,
+    "api_call_count": 24
+  },
+  "sessions": [
+    {
+      "metadata": "/05/01M4KD31H041T5GR93K73SJH05/0/metadata.json",
+      "transcript": "/05/01M4KD31H041T5GR93K73SJH05/0/full.jsonl",
+      "context": "/05/01M4KD31H041T5GR93K73SJH05/0/context.md",
+      "content_hash": "/05/01M4KD31H041T5GR93K73SJH05/0/content_hash.txt",
+      "prompt": "/05/01M4KD31H041T5GR93K73SJH05/0/prompt.txt"
+    }
+  ],
+  "checkpoint_version": 1
+}
