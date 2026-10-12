@@ -1,0 +1,216 @@
+<task-notification>
+<task-id>bgco51h0c</task-id>
+<summary>Monitor event: "Wait ~2 minutes for the live design to finish"</summary>
+<event>t1</event>
+If this event is something the user would act on now, send a PushNotification. Routine or benign output doesn't need one.
+</task-notification>
+
+---
+
+<task-notification>
+<task-id>bgco51h0c</task-id>
+<summary>Monitor event: "Wait ~2 minutes for the live design to finish"</summary>
+<event>t2</event>
+If this event is something the user would act on now, send a PushNotification. Routine or benign output doesn't need one.
+</task-notification>
+
+---
+
+<task-notification>
+<task-id>bgco51h0c</task-id>
+<summary>Monitor event: "Wait ~2 minutes for the live design to finish"</summary>
+<event>t3</event>
+If this event is something the user would act on now, send a PushNotification. Routine or benign output doesn't need one.
+</task-notification>
+
+---
+
+<task-notification>
+<task-id>bgco51h0c</task-id>
+<summary>Monitor event: "Wait ~2 minutes for the live design to finish"</summary>
+<event>t4</event>
+If this event is something the user would act on now, send a PushNotification. Routine or benign output doesn't need one.
+</task-notification>
+
+---
+
+<task-notification>
+<task-id>bgco51h0c</task-id>
+<summary>Monitor event: "Wait ~2 minutes for the live design to finish"</summary>
+<event>t5</event>
+If this event is something the user would act on now, send a PushNotification. Routine or benign output doesn't need one.
+</task-notification>
+
+---
+
+<task-notification>
+<task-id>bgco51h0c</task-id>
+<summary>Monitor event: "Wait ~2 minutes for the live design to finish"</summary>
+<event>t6</event>
+If this event is something the user would act on now, send a PushNotification. Routine or benign output doesn't need one.
+</task-notification>
+
+---
+
+<task-notification>
+<task-id>bgco51h0c</task-id>
+<summary>Monitor event: "Wait ~2 minutes for the live design to finish"</summary>
+<event>t7</event>
+If this event is something the user would act on now, send a PushNotification. Routine or benign output doesn't need one.
+</task-notification>
+
+---
+
+<task-notification>
+<task-id>bgco51h0c</task-id>
+<summary>Monitor event: "Wait ~2 minutes for the live design to finish"</summary>
+<event>t8</event>
+If this event is something the user would act on now, send a PushNotification. Routine or benign output doesn't need one.
+</task-notification>
+
+---
+
+<task-notification>
+<task-id>bgco51h0c</task-id>
+<summary>Monitor event: "Wait ~2 minutes for the live design to finish"</summary>
+<event>t9</event>
+If this event is something the user would act on now, send a PushNotification. Routine or benign output doesn't need one.
+</task-notification>
+
+---
+
+<task-notification>
+<task-id>bgco51h0c</task-id>
+<summary>Monitor event: "Wait ~2 minutes for the live design to finish"</summary>
+<event>t10</event>
+If this event is something the user would act on now, send a PushNotification. Routine or benign output doesn't need one.
+</task-notification>
+
+---
+
+<task-notification>
+<task-id>bgco51h0c</task-id>
+<summary>Monitor event: "Wait ~2 minutes for the live design to finish"</summary>
+<event>t11</event>
+If this event is something the user would act on now, send a PushNotification. Routine or benign output doesn't need one.
+</task-notification>
+
+---
+
+<task-notification>
+<task-id>bgco51h0c</task-id>
+<summary>Monitor event: "Wait ~2 minutes for the live design to finish"</summary>
+<event>t12</event>
+If this event is something the user would act on now, send a PushNotification. Routine or benign output doesn't need one.
+</task-notification>
+
+---
+
+<task-notification>
+<task-id>bgco51h0c</task-id>
+<summary>Monitor event: "Wait ~2 minutes for the live design to finish"</summary>
+<event>t13</event>
+If this event is something the user would act on now, send a PushNotification. Routine or benign output doesn't need one.
+</task-notification>
+
+---
+
+<task-notification>
+<task-id>bgco51h0c</task-id>
+<summary>Monitor event: "Wait ~2 minutes for the live design to finish"</summary>
+<event>t14</event>
+If this event is something the user would act on now, send a PushNotification. Routine or benign output doesn't need one.
+</task-notification>
+
+---
+
+<task-notification>
+<task-id>bgco51h0c</task-id>
+<summary>Monitor event: "Wait ~2 minutes for the live design to finish"</summary>
+<event>t15</event>
+If this event is something the user would act on now, send a PushNotification. Routine or benign output doesn't need one.
+</task-notification>
+
+---
+
+<task-notification>
+<task-id>bgco51h0c</task-id>
+<summary>Monitor event: "Wait ~2 minutes for the live design to finish"</summary>
+<event>t16</event>
+If this event is something the user would act on now, send a PushNotification. Routine or benign output doesn't need one.
+</task-notification>
+
+---
+
+<task-notification>
+<task-id>bgco51h0c</task-id>
+<summary>Monitor event: "Wait ~2 minutes for the live design to finish"</summary>
+<event>t17</event>
+If this event is something the user would act on now, send a PushNotification. Routine or benign output doesn't need one.
+</task-notification>
+
+---
+
+<task-notification>
+<task-id>bgco51h0c</task-id>
+<summary>Monitor event: "Wait ~2 minutes for the live design to finish"</summary>
+<event>t18</event>
+If this event is something the user would act on now, send a PushNotification. Routine or benign output doesn't need one.
+</task-notification>
+
+---
+
+<task-notification>
+<task-id>bgco51h0c</task-id>
+<summary>Monitor event: "Wait ~2 minutes for the live design to finish"</summary>
+<event>t19</event>
+If this event is something the user would act on now, send a PushNotification. Routine or benign output doesn't need one.
+</task-notification>
+
+---
+
+<task-notification>
+<task-id>bgco51h0c</task-id>
+<summary>Monitor event: "Wait ~2 minutes for the live design to finish"</summary>
+<event>t20</event>
+If this event is something the user would act on now, send a PushNotification. Routine or benign output doesn't need one.
+</task-notification>
+
+---
+
+<task-notification>
+<task-id>bgco51h0c</task-id>
+<summary>Monitor event: "Wait ~2 minutes for the live design to finish"</summary>
+<event>t21</event>
+If this event is something the user would act on now, send a PushNotification. Routine or benign output doesn't need one.
+</task-notification>
+
+---
+
+<task-notification>
+<task-id>bgco51h0c</task-id>
+<summary>Monitor event: "Wait ~2 minutes for the live design to finish"</summary>
+<event>t22</event>
+If this event is something the user would act on now, send a PushNotification. Routine or benign output doesn't need one.
+</task-notification>
+
+---
+
+<task-notification>
+<task-id>bgco51h0c</task-id>
+<summary>Monitor event: "Wait ~2 minutes for the live design to finish"</summary>
+<event>t23</event>
+If this event is something the user would act on now, send a PushNotification. Routine or benign output doesn't need one.
+</task-notification>
+
+---
+
+<task-notification>
+<task-id>bgco51h0c</task-id>
+<tool-use-id>toolu_01H7hrraHqEpAJn4Y6oLMbKY</tool-use-id>
+<output-file>F:\Users\shrey\Temp\claude\F--Users-shrey-Desktop-AI-Project\a374114e-eb03-4a0f-b5d1-02aa3f0bf0c1\tasks\bgco51h0c.output</output-file>
+<status>completed</status>
+<summary>Monitor "Wait ~2 minutes for the live design to finish" stream ended</summary>
+<event>t24</event>
+If this event is something the user would act on now, send a PushNotification. Routine or benign output doesn't need one.
+</task-notification>
