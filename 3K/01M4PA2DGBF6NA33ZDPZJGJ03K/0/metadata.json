@@ -1,0 +1,72 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4PA2DGBF6NA33ZDPZJGJ03K",
+  "session_id": "a374114e-eb03-4a0f-b5d1-02aa3f0bf0c1",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-11T20:22:09.5734027Z",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "backend/aip/api/schemas.py",
+    "backend/aip/engines/architecture/layout.py",
+    "backend/aip/engines/architecture/parti.py",
+    "frontend/atelier.js",
+    "frontend/index.html",
+    "frontend/setbacks.js",
+    "frontend/studio.js"
+  ],
+  "agent": "Claude Code",
+  "model": "claude-sonnet-5-5",
+  "turn_id": "7364dc0f1787",
+  "checkpoint_transcript_start": 1714,
+  "transcript_lines_at_start": 1714,
+  "compact_transcript_start": 278,
+  "token_usage": {
+    "input_tokens": 52,
+    "cache_creation_tokens": 37823,
+    "cache_read_tokens": 12104517,
+    "output_tokens": 23926,
+    "api_call_count": 26
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-10-11T20:22:09.0259171Z",
+    "agent_lines": 0,
+    "agent_removed": 0,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 9124,
+    "total_committed": 0,
+    "total_lines_changed": 9124,
+    "agent_percentage": 0,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 9183,
+      "user_lines_removed": 9124,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        ".impeccable/hook.cache.json": 1,
+        "backend/aip/api/schemas.py": 467,
+        "backend/aip/engines/architecture/layout.py": 5038,
+        "backend/aip/engines/architecture/parti.py": 9,
+        "frontend/atelier.js": 576,
+        "frontend/index.html": 461,
+        "frontend/setbacks.js": 5,
+        "frontend/studio.js": 2625,
+        "scratch/fp.svg": 1
+      },
+      "user_removed_per_file": {
+        "backend/aip/api/schemas.py": 447,
+        "backend/aip/engines/architecture/layout.py": 5014,
+        "backend/aip/engines/architecture/parti.py": 6,
+        "frontend/atelier.js": 573,
+        "frontend/index.html": 461,
+        "frontend/studio.js": 2623
+      }
+    }
+  ],
+  "checkpoint_version": 1
+}
