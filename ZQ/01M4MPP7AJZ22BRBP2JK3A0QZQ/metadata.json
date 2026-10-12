@@ -1,0 +1,48 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4MPP7AJZ22BRBP2JK3A0QZQ",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "frontend/home.js",
+    "frontend/rabbit.css",
+    "frontend/studio.js"
+  ],
+  "sessions": [
+    {
+      "metadata": "/ZQ/01M4MPP7AJZ22BRBP2JK3A0QZQ/0/metadata.json",
+      "transcript": "/ZQ/01M4MPP7AJZ22BRBP2JK3A0QZQ/0/full.jsonl",
+      "context": "/ZQ/01M4MPP7AJZ22BRBP2JK3A0QZQ/0/context.md",
+      "content_hash": "/ZQ/01M4MPP7AJZ22BRBP2JK3A0QZQ/0/content_hash.txt",
+      "prompt": "/ZQ/01M4MPP7AJZ22BRBP2JK3A0QZQ/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 2658,
+    "cache_creation_tokens": 10572049,
+    "cache_read_tokens": 632258550,
+    "output_tokens": 1361325,
+    "api_call_count": 1337,
+    "subagent_tokens": {
+      "input_tokens": 0,
+      "cache_creation_tokens": 0,
+      "cache_read_tokens": 0,
+      "output_tokens": 0,
+      "api_call_count": 0
+    }
+  },
+  "combined_attribution": {
+    "calculated_at": "2026-10-11T05:24:16.8121849Z",
+    "agent_lines": 82,
+    "agent_removed": 20,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 82,
+    "total_lines_changed": 102,
+    "agent_percentage": 100,
+    "metric_version": 2
+  },
+  "checkpoint_version": 1
+}

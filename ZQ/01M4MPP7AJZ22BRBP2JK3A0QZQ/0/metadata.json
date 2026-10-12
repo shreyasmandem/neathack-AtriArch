@@ -1,0 +1,46 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4MPP7AJZ22BRBP2JK3A0QZQ",
+  "session_id": "990e11f8-0369-472b-a10a-71ef16ba8043",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-11T05:24:10.5262684Z",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "save_step_count": 1,
+  "files_touched": [
+    "frontend/home.js",
+    "frontend/rabbit.css",
+    "frontend/studio.js"
+  ],
+  "agent": "Antigravity",
+  "model": "",
+  "turn_id": "294b7975c968",
+  "session_metrics": {
+    "turn_count": 1
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-10-11T05:24:10.4866645Z",
+    "agent_lines": 0,
+    "agent_removed": 20,
+    "human_added": 0,
+    "human_modified": 3654,
+    "human_removed": 0,
+    "total_committed": 3654,
+    "total_lines_changed": 3674,
+    "agent_percentage": 0.5443658138268916,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 1,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        ".impeccable/hook.cache.json": 1
+      }
+    }
+  ],
+  "checkpoint_version": 1
+}
