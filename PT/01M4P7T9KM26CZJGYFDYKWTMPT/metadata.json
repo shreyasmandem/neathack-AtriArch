@@ -1,0 +1,28 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4P7T9KM26CZJGYFDYKWTMPT",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "frontend/config.js",
+    "frontend/vercel.json"
+  ],
+  "sessions": [
+    {
+      "metadata": "/PT/01M4P7T9KM26CZJGYFDYKWTMPT/0/metadata.json",
+      "transcript": "/PT/01M4P7T9KM26CZJGYFDYKWTMPT/0/full.jsonl",
+      "context": "/PT/01M4P7T9KM26CZJGYFDYKWTMPT/0/context.md",
+      "content_hash": "/PT/01M4P7T9KM26CZJGYFDYKWTMPT/0/content_hash.txt",
+      "prompt": "/PT/01M4P7T9KM26CZJGYFDYKWTMPT/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 52,
+    "cache_creation_tokens": 23181,
+    "cache_read_tokens": 7711852,
+    "output_tokens": 5636,
+    "api_call_count": 26
+  },
+  "checkpoint_version": 1
+}
